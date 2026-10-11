@@ -40,7 +40,11 @@ function base(){
  const lower=" L "+xy([833,455]).join(" ")+" L "+xy([179,456]).join(" ")+" L "+xy([167,439]).join(" ")+" Z";
  const outline=smooth(roofTop,false)+lower+leftCut;
  let s=wheel(wheels[0],tireR.front)+wheel(wheels[1],tireR.rear);
- s+='<path d="'+outline+'" fill-rule="evenodd" fill="#1a2025" stroke="#707d88" stroke-width="10"/>';
+ s+='<path d="'+outline+'" fill-rule="evenodd" fill="#1a2025" stroke="none"/>';
+ s+='<path d="'+smooth(roofTop,false)+'" fill="none" stroke="#707d88" stroke-width="10"/>';
+ for(const cx of wheels){s+='<path d="M '+f(cx-362)+' '+f(wheelY)+' A 362 362 0 0 1 '+f(cx+362)+' '+f(wheelY)+'" fill="none" stroke="#707d88" stroke-width="9"/>';}
+ const yR=f(yMap(456)),xL=f(wheels[0]-305),xML=f(wheels[0]+305),xMR=f(wheels[1]-305),xR=f(wheels[1]+305);
+ s+='<path d="M 0 '+yR+' L '+xL+' '+yR+' M '+xML+' '+yR+' H '+xMR+' M '+xR+' '+yR+' H '+M.length+'" stroke="#596772" stroke-width="7" fill="none"/>';
  for(const pts of windows)s+='<path d="'+smooth(pts,true)+'" fill="#09121c" stroke="#5c6974" stroke-width="9"/>';
  for(const pts of doorLines)s+='<path d="'+smooth(pts)+'" fill="none" stroke="#58656e" stroke-width="5" opacity=".75"/>';
  for(const pts of flank)s+='<path d="'+smooth(pts)+'" fill="none" stroke="#67737d" stroke-width="7" opacity=".28"/>';
