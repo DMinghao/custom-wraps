@@ -1,0 +1,39 @@
+{
+  "iteration": "0002",
+  "study": "prototype-01",
+  "status": "exploratory_schematic_not_approved",
+  "scope": "SIDE_NORM / side-view creative mockup",
+  "sourceOfTruth": "render-concept.mjs (one scene for all views)",
+  "drawingDimensions": {
+    "width": 1800,
+    "height": 860,
+    "units": "pixels schematic, NOT mm"
+  },
+  "reference": {
+    "carLengthMM": 4724,
+    "wheelbaseMM": 2875,
+    "frontOverhangMM": 872,
+    "rearOverhangMM": 978,
+    "manufacturer": "Tesla 2024+ Model 3 Owner's Manual",
+    "sidePhotoUsedFor": "visual proportions only; no copy in deliverable"
+  },
+  "bodyShape": "approximate vector geometry hand-interpreted from Tesla M3P exterior photo and proportions; NOT matched 3D mesh",
+  "glyph": "Tesla T-inspired geometric placeholder pending provenance check",
+  "flowPaths": 28,
+  "particleCount": 78,
+  "seed": 290011,
+  "material": {
+    "base": "existing matte-black Apterix PPF",
+    "shadow": "near-black trial graphic",
+    "reveal": "black retroreflective candidate",
+    "realReflectanceMeasured": false
+  },
+  "exports": [
+    "ghost-aero-day.svg",
+    "ghost-aero-night.svg",
+    "ghost-aero-anatomy.svg",
+    "ghost-aero-comparison.svg"
+  ],
+  "uvProjectionVerified": false,
+  "physicalCuttingPermitted": false
+}
