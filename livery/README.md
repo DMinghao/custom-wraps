@@ -26,7 +26,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 | Version | Stage | Description | View |
 |---|---|---|---|
 | [0001 — Ghost Reflective](iterations/0001-2026-10-11-ghost-reflective/) | Preserved exploratory designs | Three independent textures; six UV PNG and six SVG concept previews | [V1 gallery](iterations/0001-2026-10-11-ghost-reflective/README.md) |
-| [0002 — Ghost Aerodynamics](iterations/0002-2026-10-11-ghost-aerodynamics/) | **Design/spec stage, no new V2 images** | Unified aero + Tesla T microtexture + MODEL 2.9 annotations; panel-level plan and architecture | [V2 specification](iterations/0002-2026-10-11-ghost-aerodynamics/) |
+| [0002 — Ghost Aerodynamics](iterations/0002-2026-10-11-ghost-aerodynamics/) | **First integrated 2D side-study complete; no owner sign-off** | One coded scene, 28 guided paths, 78 provisional Tesla T marks, engineering identifiers; five SVG + five PNG previews; geometric validation still open | [V2 gallery, code & review](iterations/0002-2026-10-11-ghost-aerodynamics/) |
 
 ## Technical boundaries
 
