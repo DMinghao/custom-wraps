@@ -182,7 +182,7 @@ function renderDetail(scene){
  <text x="85" y="83" font-family="Arial" font-size="29" fill="#e2edf1" letter-spacing="3">MICROTEXTURE / REAR QUARTER</text>
  <text x="87" y="115" font-family="Arial" font-size="14" fill="#94acbb" letter-spacing="2">MODEL 2.9 / ITERATION 0002 / FIRST INTEGRATED STUDY</text>
  <rect x="70" y="159" width="1258" height="465" rx="9" fill="#121a22" stroke="#405262" stroke-width="1"/>
- <svg x="85" y="171" width="1229" height="440" viewBox="890 436 510 244">
+ <svg x="85" y="171" width="1229" height="440" viewBox="928 454 325 151">
  ${buildCar(scene,"night",{suffix:"detail"})}
  </svg>
  <g font-family="Arial" fill="#aac9d5" font-size="15">

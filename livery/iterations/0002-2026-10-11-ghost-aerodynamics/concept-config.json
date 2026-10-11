@@ -39,11 +39,11 @@
   "physicalCuttingPermitted": false,
   "detailCrop": {
     "viewBox": [
-      890,
-      436,
-      510,
-      244
+      928,
+      454,
+      325,
+      151
     ],
-    "use": "enlarged composition inspect, not measured surface mapping"
+    "use": "higher magnification: Tesla T field; wheel cutouts mostly excluded"
   }
 }
