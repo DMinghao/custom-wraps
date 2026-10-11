@@ -1,0 +1,20 @@
+{
+  "iteration": "0001",
+  "date": "2026-10-11",
+  "vehicle": "Tesla Model 3 Performance 2024+",
+  "background": "Apterix Matte Black PPF",
+  "concepts": [
+    "aero-flow",
+    "parametric-fade",
+    "engineering-blueprint"
+  ],
+  "status": "exploration_no_selection",
+  "referenceUV": "../../../model3-2024-performance/template.png",
+  "output": {
+    "preview": "SVG side-view concept, approximate silhouette",
+    "paintshop": "1024x1024 UV PNG from original Tesla mask, generated via Pillow"
+  },
+  "materialStatus": "black reflective / clear fluorescent / glow variants not selected",
+  "samplingSeed": 20261011,
+  "nightSimulation": "illustrative, not photometrically calibrated"
+}
