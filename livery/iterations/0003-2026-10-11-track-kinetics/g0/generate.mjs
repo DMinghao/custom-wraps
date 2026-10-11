@@ -13,10 +13,10 @@ const yMap=y=>(y-photo.roofY)*M.height/(photo.groundY-photo.roofY);
 const f=n=>Number(n).toFixed(1);
 const xy=p=>[f(xMap(p[0])),f(yMap(p[1]))];
 const cmd=(pts,closed=false)=>pts.map((p,i)=>(i?" L ":"M ")+xy(p).join(" ")).join("")+(closed?" Z":"");
+const smooth=(pts,closed=false)=>{const P=pts.map(xy),out=["M "+P[0].join(" ")];for(let i=0;i<P.length-1;i++){const a=P[Math.max(0,i-1)],b=P[i],c=P[i+1],d=P[Math.min(P.length-1,i+2)];const c1=[Number(b[0])+(c[0]-a[0])/6,Number(b[1])+(c[1]-a[1])/6];const c2=[Number(c[0])-(d[0]-b[0])/6,Number(c[1])-(d[1]-b[1])/6];out.push("C "+c1.map(f).join(" ")+" "+c2.map(f).join(" ")+" "+c.join(" "));}return out.join(" ")+(closed?" Z":"");};
 const roof=[[166,383],[188,371],[222,357],[280,347],[339,340],[357,334],[403,302],[456,282],[504,272],[546,269],[591,274],[643,287],[690,303],[737,316],[787,327],[817,326],[830,323],[835,349],[842,394],[841,440],[833,455],[179,456],[167,439],[166,383]];
 const windows=[[[358,339],[406,300],[449,288],[526,283],[540,286],[535,332]],
-[[548,286],[612,292],[675,307],[728,321],[713,332],[543,329]],
-[[735,321],[778,329],[745,337]]];
+[[548,286],[612,292],[675,307],[728,321],[713,332],[543,329]]];
 const doorLines=[[[357,338],[354,394],[359,454]],
 [[535,287],[535,386],[531,454]],
 [[698,310],[675,399],[647,457]]];
@@ -35,21 +35,20 @@ function wheel(cx,r){
  s+='<circle cx="'+f(cx)+'" cy="'+f(wheelY)+'" r="24" fill="#76818b"/>';return s;
 }
 function base(){
- const outline=cmd(roof,true);
- let s='<defs><mask id="skin"><rect x="-500" y="-500" width="6000" height="3000" fill="white"/>';
- for(const cx of wheels)s+='<circle cx="'+f(cx)+'" cy="'+f(wheelY)+'" r="362" fill="black"/>';
- s+='</mask></defs>';
- s+=wheel(wheels[0],tireR.front)+wheel(wheels[1],tireR.rear);
- s+='<path d="'+outline+'" fill="#1a2025" stroke="#707d88" stroke-width="10" mask="url(#skin)"/>';
- for(const pts of windows)s+='<path d="'+cmd(pts,true)+'" fill="#09121c" stroke="#5c6974" stroke-width="10"/>';
- for(const pts of doorLines)s+='<path d="'+cmd(pts)+'" fill="none" stroke="#58656e" stroke-width="6" opacity=".75"/>';
- for(const pts of flank)s+='<path d="'+cmd(pts)+'" fill="none" stroke="#67737d" stroke-width="9" opacity=".36"/>';
- s+='<path d="'+cmd([[815,324],[833,324],[841,326]])+'" stroke="#8995a0" stroke-width="15" fill="none"/>';
- s+='<path d="'+cmd([[343,367],[357,355],[369,351],[384,355]])+'" fill="#0e151c" stroke="#61717c" stroke-width="6"/>';
+ const leftCut=wheels.map(cx=>" M "+f(cx+362)+" "+f(wheelY)+" A 362 362 0 1 0 "+f(cx-362)+" "+f(wheelY)+" A 362 362 0 1 0 "+f(cx+362)+" "+f(wheelY)+" Z").join("");
+ const outline=smooth(roof,true)+leftCut;
+ let s=wheel(wheels[0],tireR.front)+wheel(wheels[1],tireR.rear);
+ s+='<path d="'+outline+'" fill-rule="evenodd" fill="#1a2025" stroke="#707d88" stroke-width="10"/>';
+ for(const pts of windows)s+='<path d="'+smooth(pts,true)+'" fill="#09121c" stroke="#5c6974" stroke-width="9"/>';
+ for(const pts of doorLines)s+='<path d="'+smooth(pts)+'" fill="none" stroke="#58656e" stroke-width="5" opacity=".75"/>';
+ for(const pts of flank)s+='<path d="'+smooth(pts)+'" fill="none" stroke="#67737d" stroke-width="7" opacity=".28"/>';
+ s+='<path d="'+smooth([[815,324],[833,324],[841,326]])+'" stroke="#8995a0" stroke-width="11" fill="none"/>';
+ s+='<path d="'+smooth([[343,367],[357,355],[369,351],[384,355]])+'" fill="#0e151c" stroke="#61717c" stroke-width="5"/>';
  s+='<path d="'+cmd([[489,356],[516,353],[521,359],[491,361]],true)+'" fill="#090e13"/>';
  s+='<path d="'+cmd([[652,349],[675,347],[682,350],[655,355]],true)+'" fill="#090e13"/>';
- s+='<path d="'+cmd([[184,382],[220,372],[252,370]])+'" stroke="#8696a1" stroke-width="10" fill="none"/>';
- s+='<path d="'+cmd([[823,350],[840,363]])+'" stroke="#933842" stroke-width="18" fill="none"/>';
+ s+='<path d="'+smooth([[184,382],[220,372],[252,370]])+'" stroke="#8696a1" stroke-width="9" fill="none"/>';
+ s+='<path d="'+smooth([[823,350],[840,363]])+'" stroke="#933842" stroke-width="16" fill="none"/>';
+ s+='<path d="'+smooth([[180,455],[335,460],[664,460],[820,453]])+'" fill="none" stroke="#080b0f" stroke-width="12" opacity=".8"/>';
  return s;
 }
 function dimensionStroke(a,b,Y,label){
