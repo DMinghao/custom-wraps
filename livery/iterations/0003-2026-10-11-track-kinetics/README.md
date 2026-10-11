@@ -8,6 +8,17 @@ Owner-directed changes:
 - Replace the provisional hand-drawn T with a sourced Tesla T SVG path. [Reference asset](../../assets/tesla-t-simple-icons.svg); origin/license notes [here](../../assets/README.md).
 - Keep **MODEL 2.9**'s restrained engineering identity and nighttime reveal premise.
 
+## G0 preliminary measured-axle baseline (produced, not approved)
+
+[![Preliminary blank M3P side](g0/previews/blank-m3p-side.png)](g0/README.md)
+
+- [**View G0 blank side PNG**](g0/previews/blank-m3p-side.png)
+- [Factory-dimension overlay](g0/previews/dimension-check.png)
+- [G0 source photo link, data caveats and generator](g0/README.md)
+- [G0 preliminary QA assessment](g0/G0_REVIEW.md)
+
+This is a **photo-informed contour with verified nominal chassis measurements**, not an orthographic CAD trace or an accurate as-installed car. Owner approval/registered real-car photo are required for G0 PASS. **No V3 decals have been generated.**
+
 ## Reading
 
 - [PLAN.md](PLAN.md): staged aesthetic/technical work program and 3 candidate directions.

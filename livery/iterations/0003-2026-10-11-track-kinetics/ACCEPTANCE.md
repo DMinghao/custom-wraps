@@ -2,6 +2,16 @@
 
 **Planning status:** all content below is proposed criteria, not proof of a completed stage.
 
+## G0 initial work (2026-10-11)
+
+- [x] Collected an identified near-side 2024+ Performance reference; original copyrighted photo not redistributed.
+- [x] Normalized wheel centers/front and rear overhang to a coherent Tesla factory dimensional set.
+- [x] Calculated staggered factory tire nominal diameters and rendered a blank M3P study.
+- [x] Added deterministic SVG/PNG generation and editable control-point JSON.
+- [ ] Registered photo-to-outline overlay with calibrated camera or known orthographic side shot.
+- [ ] Confirmed M3P roof/window/lip/spoiler/bumper panel details on actual owner's car.
+- [ ] Owner visually approves G0. **G0 NOT PASSED.**
+
 ## Must pass before any V3 livery image is considered a serious candidate
 
 - [ ] Calibrated M3P blank base accepted (2024+ Performance, recognizably correct roof/hatch/hood, true wheel-arch voids, fenders, light locations, side window lines, 20-inch wheels / Performance styling reference).

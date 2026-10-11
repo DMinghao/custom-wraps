@@ -7,6 +7,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 ## V3 current action
 
 - [Independent V2 technical and aesthetic audit](reviews/V2_REVIEW_2026-10-11.md) — important owner-confirmed critique: too many calm luxury pinstripes and inaccurate vehicle silhouette.
+- [G0 blank M3P study](iterations/0003-2026-10-11-track-kinetics/g0/) — first photo-informed 4724mm / 2875mm geometry study; not yet verified against owner's car.
 - [V3 Track Kinetics plan](iterations/0003-2026-10-11-track-kinetics/PLAN.md) — no new graphics until calibrated M3P base; three sportier candidate graphic grammars.
 - [Tesla T SVG asset provenance](assets/README.md) — vector sourced rather than hand-drawn.
 
