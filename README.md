@@ -1,5 +1,10 @@
 # Custom Wrap Images for Tesla Vehicles
 
+> **Active design workspace: [MODEL 2.9 — Ghost Livery](livery/README.md)**
+
+> Versioned design decisions, UV previews, day/night simulations, render code and iteration history for the 2024+ Model 3 Performance.
+
+
 This repository provides templates and examples for creating custom wrap designs for your Tesla's 3D vehicle visualization. Personalize your car's appearance in the Paint Shop with your own unique designs.
 
 ## How to Use Custom Wraps
