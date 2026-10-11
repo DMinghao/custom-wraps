@@ -12,7 +12,7 @@
 |---|---|
 | ![Day](previews/ghost-aero-day.svg) | ![Night](previews/ghost-aero-night.svg) |
 
-[Annotated layer anatomy](previews/ghost-aero-anatomy.svg)
+[Annotated layer anatomy](previews/ghost-aero-anatomy.svg) · [Rear-quarter / Tesla T enlarged detail](previews/ghost-aero-detail.png)
 
 The drawing combines **ridge-inspired Aero Flow**, **Tesla T-inspired parametric fading** and **MODEL 2.9 engineering identifiers** in one shared graphic scene (not independent concepts). The rear door/rear haunch has the principal texture density peak; front door and tail retain large negative spaces.
 
@@ -22,7 +22,7 @@ The drawing combines **ridge-inspired Aero Flow**, **Tesla T-inspired parametric
 node livery/iterations/0002-2026-10-11-ghost-aerodynamics/render-concept.mjs
 ```
 
-The versioned generator writes four SVG previews to `previews/`. It is deterministic and has no npm dependencies. `concept-config.json` describes the rendering assumptions. These outputs are **first implementation/visualization evidence**, not owner-approved final art.
+The versioned generator writes five SVG previews to `previews/`. It is deterministic and has no npm dependencies. `concept-config.json` describes the rendering assumptions. These outputs are **first implementation/visualization evidence**, not owner-approved final art.
 
 ### Important limitations
 
@@ -31,6 +31,13 @@ The versioned generator writes four SVG previews to `previews/`. It is determini
 - "Night" is a stylized choice of material-color palette; real retroreflection is view/light-angle dependent and has not been tested.
 - Nothing in these files is safe for a vinyl plotter; the Tesla display UV is not a physical template.
 - Real geometry and UV transfer will be the next gate, after owner evaluates this 2D composition.
+
+### Inspect at full resolution
+
+- [PNG daytime](previews/ghost-aero-day.png)
+- [PNG night](previews/ghost-aero-night.png)
+- [PNG day/night board](previews/ghost-aero-comparison.png)
+- [Rear quarter detail (PNG)](previews/ghost-aero-detail.png)
 
 ## Design documents
 

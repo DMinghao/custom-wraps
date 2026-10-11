@@ -143,10 +143,10 @@ function renderSvg(mode,scene,kind="side"){
  const left=kind==="annotated";
  const diagrams=buildCar(scene,mode,{suffix:kind});
  const notes=left?`<g fill="#89a0b0" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.5" font-size="13">
- <path d="M 668 414 L 556 221 L 365 221" fill="none" stroke="#5e8092" stroke-width="1.2"/><text x="225" y="209">01 / RIDGE-LINKED FLOW</text>
+ <path d="M 668 516 L 556 221 L 365 221" fill="none" stroke="#5e8092" stroke-width="1.2"/><text x="225" y="209">01 / RIDGE-LINKED FLOW</text>
  <path d="M 1151 520 L 1300 243 L 1455 243" fill="none" stroke="#5e8092" stroke-width="1.2"/><text x="1310" y="232">02 / TESLA T FIELD</text>
  <path d="M 733 657 L 811 756 L 1096 756" fill="none" stroke="#5e8092" stroke-width="1.2"/><text x="1106" y="761">03 / MODEL 2.9 ID</text>
- <circle cx="668" cy="414" r="4" fill="#a4c2cf"/><circle cx="1151" cy="520" r="4" fill="#a4c2cf"/><circle cx="733" cy="657" r="4" fill="#a4c2cf"/>
+ <circle cx="668" cy="516" r="4" fill="#a4c2cf"/><circle cx="1151" cy="520" r="4" fill="#a4c2cf"/><circle cx="733" cy="657" r="4" fill="#a4c2cf"/>
  </g>`:"";
  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 860" width="1800" height="860">
  <title>MODEL 2.9 / GHOST AERODYNAMICS / ${mode}${left?" / anatomy":""}</title>
@@ -175,11 +175,27 @@ function renderSheet(scene){
  <title>MODEL 2.9 V2 first compositional side study / daytime and nighttime</title>
  <g>${day}</g><g transform="translate(0 860)">${night}</g></svg>`;
 }
+function renderDetail(scene){
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+ <title>MODEL 2.9 - T microtexture and aft ridge / macro detail preview</title>
+ <rect width="1400" height="760" fill="#0a111b"/>
+ <text x="85" y="83" font-family="Arial" font-size="29" fill="#e2edf1" letter-spacing="3">MICROTEXTURE / REAR QUARTER</text>
+ <text x="87" y="115" font-family="Arial" font-size="14" fill="#94acbb" letter-spacing="2">MODEL 2.9 / ITERATION 0002 / FIRST INTEGRATED STUDY</text>
+ <rect x="70" y="159" width="1258" height="465" rx="9" fill="#121a22" stroke="#405262" stroke-width="1"/>
+ <svg x="85" y="171" width="1229" height="440" viewBox="890 436 510 244">
+ ${buildCar(scene,"night",{suffix:"detail"})}
+ </svg>
+ <g font-family="Arial" fill="#aac9d5" font-size="15">
+ <text x="90" y="676">28 GUIDED PATHS  /  ${scene.particles.length} PROVISIONAL T MICRO-GLYPHS  /  SHADOW + REVEAL MATERIAL TAGS</text>
+ <text x="90" y="705" font-size="12" fill="#7f9aaa">ILLUSTRATIVE ZOOM — TESLA T OUTLINE NOT YET VERIFIED AS A CANONICAL BRAND ASSET</text>
+ </g></svg>`;
+}
 const here=path.dirname(fileURLToPath(import.meta.url)), out=path.join(here,"previews");
 fs.mkdirSync(out,{recursive:true});
 const design=makeScene();
 for(const mode of ["day","night"])fs.writeFileSync(path.join(out,"ghost-aero-"+mode+".svg"),renderSvg(mode,design));
 fs.writeFileSync(path.join(out,"ghost-aero-anatomy.svg"),renderSvg("day",design,"annotated"));
 fs.writeFileSync(path.join(out,"ghost-aero-comparison.svg"),renderSheet(design));
-console.log("rendered 4 SVG previews",design.curves.length,"flow paths",design.particles.length,"T motifs");
+fs.writeFileSync(path.join(out,"ghost-aero-detail.svg"),renderDetail(design));
+console.log("rendered 5 SVG previews",design.curves.length,"flow paths",design.particles.length,"T motifs");
 // The glyph here is a clearly labeled approximate T motif; replace only after a verified canonical Tesla T SVG is sourced.

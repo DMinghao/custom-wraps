@@ -32,8 +32,18 @@
     "ghost-aero-day.svg",
     "ghost-aero-night.svg",
     "ghost-aero-anatomy.svg",
-    "ghost-aero-comparison.svg"
+    "ghost-aero-comparison.svg",
+    "ghost-aero-detail.svg"
   ],
   "uvProjectionVerified": false,
-  "physicalCuttingPermitted": false
+  "physicalCuttingPermitted": false,
+  "detailCrop": {
+    "viewBox": [
+      890,
+      436,
+      510,
+      244
+    ],
+    "use": "enlarged composition inspect, not measured surface mapping"
+  }
 }
