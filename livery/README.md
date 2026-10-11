@@ -2,39 +2,37 @@
 
 **Primary project workspace for the 2024+ Tesla Model 3 Performance (M3P) stealth-texture wrap.**
 
-This folder is separate from the upstream Tesla templates. We keep the original `model3-2024-performance/template.png` unchanged and use it for UV layout checks.
+This folder is separate from the Tesla-sourced templates. Original `model3-2024-performance/template.png` remains unchanged and is an on-screen preview UV atlas, *not a full-scale vinyl cutter outline*.
 
-## Design brief
+## Core design principles
 
-- Vehicle: 2024+ Tesla Model 3 Performance / matte-black Apterix color PPF.
-- Goal: a second-layer **texture livery**, low visibility during the day and striking when illuminated at night.
-- Acceptable candidates: black retroreflective film or a tested transparent/special-effect film; material **not yet selected**.
-- Avoid: broad opaque color blocks, conspicuous daytime graphics, large conventional racing stripes.
-- Visual direction: hairline aero contours, fine parametric fade, sparse engineering labels; prototype identity `MODEL 2.9 / EVT-2.9-0001`.
-- No final layout, material, or physical installation has been approved.
+- Existing matte-black Apterix PPF stays dominant; additional textured film or tested optical materials must preserve daytime stealth.
+- Avoid large blocks/stripes; build **fine linework, controlled negative space**, and geometry-guided reveals.
+- **Iteration 0002 direction confirmed:** Aero Flow follows actual M3P shapes; parametric fade uses Tesla T micro-symbols; limited engineering details center on `MODEL 2.9`. Specific parameters, adhesive materials, body mapping and fabrication geometry are **not yet approved**.
 
 ## Navigate
 
 | File | Purpose |
 |---|---|
-| [DECISIONS.md](DECISIONS.md) | Confirmed decisions vs proposed ideas vs open questions |
-| [WORKFLOW.md](WORKFLOW.md) | New-iteration naming, approval & review checklist |
-| [MATERIALS.md](MATERIALS.md) | Material candidates and PPF compatibility checks |
-| [iterations/0001-2026-10-11-ghost-reflective/](iterations/0001-2026-10-11-ghost-reflective/) | First exploratory design study, images, parameter file and code |
+| [DECISIONS.md](DECISIONS.md) | User-confirmed choices, proposals and unresolved matters |
+| [WORKFLOW.md](WORKFLOW.md) | Version lifecycle and QA |
+| [MATERIALS.md](MATERIALS.md) | Black/transparent/reflective candidate materials |
+| [0002 DESIGN_SPEC](iterations/0002-2026-10-11-ghost-aerodynamics/DESIGN_SPEC.md) | Unified design language and textile/material behavior |
+| [0002 PANEL_PLAN](iterations/0002-2026-10-11-ghost-aerodynamics/PANEL_PLAN.md) | Hood, fenders, doors, rear and exclusion map |
+| [0002 ARCHITECTURE](iterations/0002-2026-10-11-ghost-aerodynamics/ARCHITECTURE.md) | Design generator plan and validation gates |
 
-## Design iterations
+## Design iteration history
 
-| Version | Status | Description | View |
+| Version | Stage | Description | View |
 |---|---|---|---|
-| [0001 — Ghost Reflective](iterations/0001-2026-10-11-ghost-reflective/) | Exploratory / no approval | Aero Flow, Parametric Fade, Engineering Blueprint, day/night previews | [Preview gallery](iterations/0001-2026-10-11-ghost-reflective/README.md) |
+| [0001 — Ghost Reflective](iterations/0001-2026-10-11-ghost-reflective/) | Preserved exploratory designs | Three independent textures; six UV PNG and six SVG concept previews | [V1 gallery](iterations/0001-2026-10-11-ghost-reflective/README.md) |
+| [0002 — Ghost Aerodynamics](iterations/0002-2026-10-11-ghost-aerodynamics/) | **Design/spec stage, no new V2 images** | Unified aero + Tesla T microtexture + MODEL 2.9 annotations; panel-level plan and architecture | [V2 specification](iterations/0002-2026-10-11-ghost-aerodynamics/) |
 
-## Technical truthfulness
+## Technical boundaries
 
-- Tesla's [official UV atlas](../model3-2024-performance/template.png) is for **on-screen vehicle preview**, not a 1:1 plotter/cutter file.
-- SVGs here are **concept side-view illustrations**, not measured photos.
-- Generated night versions approximate a flash/retroreflection appearance, **not real-world reflectance**.
-- Validate UV placement in the actual Tesla Paint Shop and physical cut patterns with the installer; never cut on existing PPF.
+- Tesla Paint Shop lets us check visual 3D mapping; it does **not** validate optical reflection, film adhesive behavior or physical dimensions.
+- UV previews are not measured cutters; cutter exports require per-panel geometry verification, seam/sensor clearances and sample tests.
+- Night concepts are **simulations** until actual film is measured under selected lighting angles.
+- Keep every iteration independently reproducible. Do not rewrite a frozen version to hide earlier decisions.
 
-## Source
-
-Based on this repo's Tesla 2024+ Model 3 Performance UV template. See [original vehicle guidance](../model3-2024-performance/README.md).
+Reference Tesla template: [2024+ M3P](../model3-2024-performance/template.png). Original vehicle documentation: [README](../model3-2024-performance/README.md).

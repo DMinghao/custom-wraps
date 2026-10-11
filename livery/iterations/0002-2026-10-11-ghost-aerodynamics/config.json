@@ -1,0 +1,97 @@
+{
+  "project": "MODEL 2.9 — Ghost Aerodynamics",
+  "iteration": "0002",
+  "created": "2026-10-11",
+  "status": "design_spec_only",
+  "directions_confirmed_by_owner": [
+    "Integrate Aero Flow + Tesla T Parametric Fade + MODEL 2.9 Blueprint",
+    "Guide Aero Flow by the body's characteristic ridges/volumes",
+    "Use Tesla T logo as recurring fade motif",
+    "Center engineering annotations around MODEL 2.9 identity"
+  ],
+  "reference_uv": "../../../model3-2024-performance/template.png",
+  "approved_physical_layout": false,
+  "coordinate_systems": {
+    "concept": "SIDE_NORM / HOOD_NORM, provisional [0,1]",
+    "fabrication": "PANEL_MM, unavailable until measured",
+    "display": "TESLA_UV_PX, needs 3D calibration"
+  },
+  "geometry": {
+    "measured_panel_geometry_verified": false,
+    "uv_island_mapping_verified": false,
+    "canonical_tesla_T_svg_verified": false,
+    "hood_reference_lines": [],
+    "upper_side_reference_lines": [],
+    "lower_side_reference_lines": [],
+    "rear_haunch_reference_lines": [],
+    "exclusions": [],
+    "comment": "Missing by design; do not assume arbitrary pixel lines correspond to real ridges."
+  },
+  "hierarchy_proposal": {
+    "aero_flow": 0.6,
+    "tesla_T_fade": 0.25,
+    "model_2_9_blueprint": 0.15
+  },
+  "panels_proposal": {
+    "hood": {
+      "emphasis": "low",
+      "aero": "sparse longitudinal",
+      "tesla_T": "none",
+      "model_2_9": "optional tiny"
+    },
+    "front_fender": {
+      "emphasis": "medium",
+      "aero": "seed/start",
+      "tesla_T": "sparse",
+      "model_2_9": "optional serial"
+    },
+    "front_door": {
+      "emphasis": "medium",
+      "aero": "main clean flow",
+      "tesla_T": "rare",
+      "model_2_9": "none by default"
+    },
+    "rear_door": {
+      "emphasis": "high",
+      "aero": "branch and dissolve",
+      "tesla_T": "density ramps up",
+      "model_2_9": "optional small datum"
+    },
+    "rear_quarter": {
+      "emphasis": "primary",
+      "aero": "follow haunch",
+      "tesla_T": "localized peak then fade",
+      "model_2_9": "subordinate and separated"
+    },
+    "rear": {
+      "emphasis": "low",
+      "aero": "finish",
+      "tesla_T": "almost none",
+      "model_2_9": "optional microtext"
+    },
+    "roof_glass_mirrors_trim": {
+      "emphasis": "none",
+      "all": "no graphics"
+    }
+  },
+  "material_layers": [
+    "BASE",
+    "SHADOW",
+    "REVEAL"
+  ],
+  "material_selection": "unapproved",
+  "symbol_policy": {
+    "glyph": "canonical Tesla T vector only after verified asset selection",
+    "keep_aspect_ratio": true,
+    "no_mirror_on_left_or_right": true,
+    "flow_aligned_rotation": true,
+    "sampling": "seeded variable-radius Poisson disc",
+    "seed": 20261011
+  },
+  "baseline_review": {
+    "visual_negative_space_goal": "mostly matte black (>80% apparent blank silhouette; heuristic only)",
+    "output_png": "1024x1024, under 1 MiB, after UV mapping validation",
+    "cutter_export_allowed": false,
+    "actual_night_behavior": "unknown until material sample testing"
+  }
+}

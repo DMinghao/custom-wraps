@@ -1,27 +1,35 @@
 # Decision Register — MODEL 2.9 Ghost Livery
 
-Last updated: **2026-10-11**. Only mark something *Confirmed* when the vehicle owner explicitly decides it; assistant suggestions are not approvals.
+Last updated: **2026-10-11**. This file separates **owner-confirmed direction** from design proposals; agreeing to a direction is not fabrication approval.
 
 | ID | Status | Decision / question | Basis / next validation |
 |---|---|---|---|
-| D-001 | **Confirmed** | Use the existing **matte-black Apterix PPF** as the background. | Existing vehicle finish |
-| D-002 | **Confirmed** | Add a **second-layer livery** without replacing the current PPF. | Project requirement |
-| D-003 | **Confirmed** | Favor **fine textures and linework**, not big colored blocks. | Project requirement |
-| D-004 | **Confirmed** | Keep daytime appearance **black or nearly invisible/transparent**. | Project requirement |
-| D-005 | **Confirmed** | Either **retroreflective or photoluminescent/UV effects** may be evaluated. | Project requirement; no winning material yet |
-| D-006 | **Confirmed** | Project workbench is this GitHub repo and its `livery/` folder; retain design decisions, versioned images and source code. | Repository workflow |
-| D-007 | **Proposed** | Mix Aero Flow + Parametric Fade with restrained Blueprint telemetry details. | Design recommendation, **not approved** |
-| D-008 | **Proposed** | Use `MODEL 2.9` and `EVT-2.9-0001` as hidden microtype. | Existing prototype theme; placement TBD |
-| D-009 | **Open** | Pick exact black reflective/transparent material (incl. gloss differential). | Request samples; inspect daylight, headlight reflectance |
-| D-010 | **Open** | Verify vinyl adhesive compatibility with Apterix matte PPF and removal process. | Ask film maker + wrap installer; patch-test inconspicuous spot |
-| D-011 | **Open** | Confirm individual panel placements/seams and sizing with Tesla 3D Paint Shop. | Run `render-uv.py` and verify in vehicle |
-| D-012 | **Open** | Confirm physical cutting and local visibility/color requirements. | Installer, applicable rules and manual measurements |
+| D-001 | **Confirmed** | Keep existing **matte-black Apterix PPF** as the base. | Owner vehicle finish |
+| D-002 | **Confirmed** | Add a **second-layer texture livery** rather than removing the current wrap. | Owner requirement |
+| D-003 | **Confirmed** | Prefer **fine textures and linework**, not broad color blocks. | Owner requirement |
+| D-004 | **Confirmed** | Preserve an understated **black/transparent daytime appearance**. | Owner requirement |
+| D-005 | **Confirmed** | Reflective or luminescent mechanisms may be investigated; no final material selected. | Owner requirement |
+| D-006 | **Confirmed** | This GitHub repo's `livery/` is the project workbench with design decision, code and visual history. | Owner requirement |
+| D-007 | **Confirmed (updated)** | V2 combines **Aero Flow + Parametric Fade + Engineering Blueprint** in one design, not three independent competing options. | Owner explicitly accepted V2 integrated direction |
+| D-008 | **Confirmed (concept)** | Blueprint/identity revolves around **MODEL 2.9**. `EVT-2.9-0001` may be supporting text; placement not approved. | Owner's explicit design instruction |
+| D-009 | **Open** | Pick exact black retroreflective / transparent or glow material, assess daylight matte/gloss differential. | Physical samples |
+| D-010 | **Open** | Verify adhesive compatibility, long-term behavior and safe removal on Apterix matte PPF. | Film maker/installer + inconspicuous patch test |
+| D-011 | **Open** | Validate every mapped UV island and left/right panel position on vehicle. | Actual Paint Shop test |
+| D-012 | **Open** | Define verified physical panel geometry, tolerances, cut test and legally permissible reflector appearance. | Measurements/installer/regulatory review |
+| D-013 | **Confirmed (concept)** | Follow M3P **body ridges and major volume changes** with Aero Flow, instead of arbitrary UV grid patterns. | Owner explicitly requested |
+| D-014 | **Confirmed (concept)** | Use the **Tesla T logo** as a parametric repeated motif, inspired by AMG repeated-tristar texture technique. | Owner explicitly requested |
+| D-015 | **Proposed** | Place the main Tesla T density crest at rear door → rear quarter and keep front door/hood mostly calm. | V2 panel-study recommendation, owner review pending |
+| D-016 | **Proposed** | Material-tagged `SHADOW` near-black linework plus selected `REVEAL` black retroreflective accents. | V2 materials hypothesis; feasibility unknown |
+| D-017 | **Proposed** | Use a unified scene model, separate concept/UV/physical coordinates, and block unmeasured cutter export. | V2 engineering architecture; implementation pending |
+| D-018 | **Open** | Establish reviewed/canonical Tesla T vector provenance and minimum physical viable symbol sizes. | Asset selection + sample testing |
 
-## Why there are only proposals for the final design
+## Iterations
 
-Iteration 0001 is a visual exploration. Neither its UV pattern nor any supplier is a final purchasing/production specification.
+- [0001 — Ghost Reflective](iterations/0001-2026-10-11-ghost-reflective/): archived exploration; not production-ready.
+- [0002 — Ghost Aerodynamics](iterations/0002-2026-10-11-ghost-aerodynamics/): agreed conceptual direction; panel distribution/implementation designs still **proposed**.
 
-## Record format for every future decision
+## Decision-record format
 
-`D-### | status | what was decided | date | evidence/iteration | reason | supersedes`.
-Retain superseded choices for traceability rather than silently deleting history.
+`D-### | status | question/choice | timestamp | relevant iteration/evidence | reason | supersedes`
+
+Preserve history. Never mark an illustrative night render, a 2D template or an untested adhesive as physically validated.
