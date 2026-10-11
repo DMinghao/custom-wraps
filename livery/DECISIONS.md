@@ -23,10 +23,18 @@ Last updated: **2026-10-11**. This file separates **owner-confirmed direction** 
 | D-017 | **Proposed** | Use a unified scene model, separate concept/UV/physical coordinates, and block unmeasured cutter export. | V2 engineering architecture; implementation pending |
 | D-018 | **Open** | Establish reviewed/canonical Tesla T vector provenance and minimum physical viable symbol sizes. | Asset selection + sample testing |
 
+| D-019 | **Confirmed (owner critique)** | V2's many long narrow parallel streamlines look **luxurious rather than sporty**; future graphics must emphasize dynamic performance, directional energy and graphic tension. | 2026-10-11 V2 feedback; V3 review |
+| D-020 | **Confirmed (owner correction)** | The V2 full side outline is inaccurate; do **not** use it as the basis for V3 physical styling. | 2026-10-11 feedback; blank true M3P geometry first |
+| D-021 | **Confirmed (owner request)** | Use an externally sourced Tesla T **SVG**, not the V2 hand-drawn approximation. | Simple Icons exact source captured as research asset; visual signoff still pending |
+| D-022 | **Proposed** | Design `Track Kinetics` with 2–4 strong directional gesture groups + distributed Tesla T fade, rather than dozens of near-parallel pinstripes. | V3 conceptual direction; owner approval pending |
+| D-023 | **Open** | Acquire perpendicular, appropriately reusable M3P photo/mesh with accurate contour registration. | Geometry-first V3 milestone |
+
 ## Iterations
 
 - [0001 — Ghost Reflective](iterations/0001-2026-10-11-ghost-reflective/): archived exploration; not production-ready.
 - [0002 — Ghost Aerodynamics](iterations/0002-2026-10-11-ghost-aerodynamics/): agreed conceptual direction; panel distribution/implementation designs still **proposed**.
+
+- [0003 — Track Kinetics](iterations/0003-2026-10-11-track-kinetics/): planning and geometry calibration; no approved V3 render yet.
 
 ## Decision-record format
 
