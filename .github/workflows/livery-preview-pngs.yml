@@ -1,0 +1,53 @@
+name: Generate MODEL 2.9 PNG previews
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/livery-preview-pngs.yml"
+      - "livery/iterations/0001-2026-10-11-ghost-reflective/render-uv.py"
+      - "model3-2024-performance/template.png"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install renderer
+        run: python -m pip install Pillow
+      - name: Generate 1024x1024 day/night Paint Shop PNG previews
+        run: |
+          ITER="livery/iterations/0001-2026-10-11-ghost-reflective"
+          python "$ITER/render-uv.py" --output "$ITER/previews"
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          folder = Path("livery/iterations/0001-2026-10-11-ghost-reflective/previews")
+          names = ("aero-flow", "parametric-fade", "engineering-blueprint")
+          for name in names:
+              for mode in ("day", "night"):
+                  fp = folder / f"{name}-{mode}.png"
+                  if not fp.exists():
+                      raise FileNotFoundError(fp)
+                  with Image.open(fp) as im:
+                      assert im.size == (1024, 1024), (fp, im.size)
+          print("Verified six 1024x1024 PNG previews.")
+          PY
+      - name: Commit rendered PNG previews
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add livery/iterations/0001-2026-10-11-ghost-reflective/previews/*.png
+          if ! git diff --cached --quiet; then
+            git commit -m "Add generated UV PNG previews for livery iteration 0001"
+            git push
+          fi
