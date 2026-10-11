@@ -36,7 +36,9 @@ function wheel(cx,r){
 }
 function base(){
  const leftCut=wheels.map(cx=>" M "+f(cx+362)+" "+f(wheelY)+" A 362 362 0 1 0 "+f(cx-362)+" "+f(wheelY)+" A 362 362 0 1 0 "+f(cx+362)+" "+f(wheelY)+" Z").join("");
- const outline=smooth(roof,true)+leftCut;
+ const roofTop=roof.slice(0,-4);
+ const lower=" L "+xy([833,455]).join(" ")+" L "+xy([179,456]).join(" ")+" L "+xy([167,439]).join(" ")+" Z";
+ const outline=smooth(roofTop,false)+lower+leftCut;
  let s=wheel(wheels[0],tireR.front)+wheel(wheels[1],tireR.rear);
  s+='<path d="'+outline+'" fill-rule="evenodd" fill="#1a2025" stroke="#707d88" stroke-width="10"/>';
  for(const pts of windows)s+='<path d="'+smooth(pts,true)+'" fill="#09121c" stroke="#5c6974" stroke-width="9"/>';
@@ -48,7 +50,6 @@ function base(){
  s+='<path d="'+cmd([[652,349],[675,347],[682,350],[655,355]],true)+'" fill="#090e13"/>';
  s+='<path d="'+smooth([[184,382],[220,372],[252,370]])+'" stroke="#8696a1" stroke-width="9" fill="none"/>';
  s+='<path d="'+smooth([[823,350],[840,363]])+'" stroke="#933842" stroke-width="16" fill="none"/>';
- s+='<path d="'+smooth([[180,455],[335,460],[664,460],[820,453]])+'" fill="none" stroke="#080b0f" stroke-width="12" opacity=".8"/>';
  return s;
 }
 function dimensionStroke(a,b,Y,label){
