@@ -1,0 +1,260 @@
+{
+  "status": "G0-PRELIMINARY-NOT-VERIFIED",
+  "officialDimensionsMm": {
+    "length": 4724,
+    "frontOverhang": 872,
+    "wheelbase": 2875,
+    "rearOverhang": 977,
+    "height": 1430,
+    "tires": {
+      "front": [
+        20,
+        235,
+        0.35
+      ],
+      "rear": [
+        20,
+        275,
+        0.3
+      ]
+    }
+  },
+  "referencePhoto": {
+    "size": [
+      1000,
+      750
+    ],
+    "left": 166,
+    "frontWheel": 269,
+    "rearWheel": 719,
+    "right": 841,
+    "roofY": 269,
+    "groundY": 476
+  },
+  "sourceUrl": "https://cdn.jdpower.com/JDP_2024%20Tesla%20Model%203%20Performance%20White%20Side%20View.jpg",
+  "sourcePixelLandmarks": {
+    "upperBody": [
+      [
+        166,
+        383
+      ],
+      [
+        188,
+        371
+      ],
+      [
+        222,
+        357
+      ],
+      [
+        280,
+        347
+      ],
+      [
+        339,
+        340
+      ],
+      [
+        357,
+        334
+      ],
+      [
+        403,
+        302
+      ],
+      [
+        456,
+        282
+      ],
+      [
+        504,
+        272
+      ],
+      [
+        546,
+        269
+      ],
+      [
+        591,
+        274
+      ],
+      [
+        643,
+        287
+      ],
+      [
+        690,
+        303
+      ],
+      [
+        737,
+        316
+      ],
+      [
+        787,
+        327
+      ],
+      [
+        817,
+        326
+      ],
+      [
+        830,
+        323
+      ],
+      [
+        835,
+        349
+      ],
+      [
+        842,
+        394
+      ],
+      [
+        841,
+        440
+      ],
+      [
+        833,
+        455
+      ],
+      [
+        179,
+        456
+      ],
+      [
+        167,
+        439
+      ],
+      [
+        166,
+        383
+      ]
+    ],
+    "windows": [
+      [
+        [
+          358,
+          339
+        ],
+        [
+          406,
+          300
+        ],
+        [
+          449,
+          288
+        ],
+        [
+          526,
+          283
+        ],
+        [
+          540,
+          286
+        ],
+        [
+          535,
+          332
+        ]
+      ],
+      [
+        [
+          548,
+          286
+        ],
+        [
+          612,
+          292
+        ],
+        [
+          675,
+          307
+        ],
+        [
+          728,
+          321
+        ],
+        [
+          713,
+          332
+        ],
+        [
+          543,
+          329
+        ]
+      ],
+      [
+        [
+          735,
+          321
+        ],
+        [
+          778,
+          329
+        ],
+        [
+          745,
+          337
+        ]
+      ]
+    ],
+    "doorLines": [
+      [
+        [
+          357,
+          338
+        ],
+        [
+          354,
+          394
+        ],
+        [
+          359,
+          454
+        ]
+      ],
+      [
+        [
+          535,
+          287
+        ],
+        [
+          535,
+          386
+        ],
+        [
+          531,
+          454
+        ]
+      ],
+      [
+        [
+          698,
+          310
+        ],
+        [
+          675,
+          399
+        ],
+        [
+          647,
+          457
+        ]
+      ]
+    ]
+  },
+  "dataQuality": "visual photo tracing with piecewise horizontal warping, no camera calibration",
+  "wheelCentersMm": [
+    872,
+    3747
+  ],
+  "tireDiametersMm": [
+    672.5,
+    673
+  ],
+  "blankOnly": true,
+  "geometryLocked": false,
+  "approved": false,
+  "cuttingAllowed": false
+}
