@@ -42,6 +42,11 @@ Last updated: **2026-10-11**. This file separates **owner-confirmed direction** 
 | D-034 | **Confirmed (owner critique)** | Render #20's curves are **too soft**; do not let the sketch-style direction become a gentle ribbon-like GT livery. | 2026-10-12 owner feedback to #20, not image/fabrication approval |
 | D-035 | **Confirmed (owner request)** | Study sporting livery/bodyline techniques from **AMG, Aston Martin, Bugatti and Pagani** performance/race/concept cars; **learn technique rather than copy distinctive graphics**. | 2026-10-12 owner research request; [research](research/2026-10-12-performance-line-language.md) |
 | D-036 | **Proposed (assistant interpretation)** | Next study should explore sharper curve acceleration, local tension/termination, a calmer lower door and a continuous fine Tesla T release; do not overcorrect into angular Z shapes. | Four-brand research; proposed for #21 but not owner-approved |
+| D-037 | **Confirmed (owner critique)** | #21 and #22 still look **too beautiful/soft**, lack the powerful organic continuity of the owner's rear spoiler and rear diffuser design. | User feedback, 2026-10-12 |
+| D-038 | **Confirmed (owner hard rule)** | NIGHT FULL REVEAL means **all intended retroreflective elements equally fully bright, no brightness gradient or color fade**; structural/density transitions must be encoded in discrete shapes, never selective lighting. | User feedback regarding #22, 2026-10-12 |
+| D-039 | **Confirmed (owner priority)** | Top criterion for the future appearance is a believable **Tesla-designed experimental performance prototype**, rather than merely an aggressive aftermarket wrap. | User #24 discussion, 2026-10-12 |
+| D-040 | **Confirmed (owner exploration request)** | Evaluate selective introduction of additional colors; avoid assuming recent monochrome designs are optimal. | User #24 discussion, 2026-10-12 |
+| D-041 | **Proposed (assistant)** | For #24, try restrained Matte Black + Dark Titanium + small Performance Red function-coded marks; no fourth hue, no extra luxury pinstripe; night retroreflective remains uniformly bright. | #24 proposal; no user approval of exact colors or placements |
 
 ## Iterations
 

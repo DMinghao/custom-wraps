@@ -46,6 +46,14 @@ Agent 交接包：https://github.com/DMinghao/custom-wraps/tree/master/livery/ag
 - **用户已授权以后每一版渲染和每轮意见自动归档 GitHub，勿再要求上传确认**。保存原始 PNG、不压缩、验证远端 PNG SHA/大小与预览后才称成功。#20 PNG GitHub 仍待上传，原图备份在 ChatGPT Library `/MODEL-2.9/livery/20_day_night_full_reveal_original.png`。
 - 下面“等我要求再同步”是旧指令，已被上述自动归档授权取代；但**只有用户要求下一版图像时才生成**，不要将本次研究讨论理解为已请求生成 #21。
 
+### 后续新版优先指令（2026-10-12：#24）
+- **最新研究和 #24 简报：** https://github.com/DMinghao/custom-wraps/blob/master/livery/design-briefs/24-tesla-experimental-color-and-form.md
+- #21 仍偏“太漂亮”；#22 更有生物性但同样偏软，并违规使用夜间反光渐变；#23 过冲成机甲化刀片、太碎太满，负空间损失。#24 应保留结构力量，但恢复克制与前门留白。
+- 用户最重要的新 KPI：**“让人觉得这就是特斯拉官方做的原型车”**。研究 Tesla 官方 Model 3 Performance 和 Roadster 的“结构先于装饰”设计语言，强调原创可信而非假借官方身份。
+- 用户希望权衡其他颜色：助手建议黑/深钛灰/极少量 Performance Red；不是用户已批准的颜色分配。不要添加荧光色、多色赛车贴纸。
+- 硬约束：NIGHT 所有反光图形同时**等亮纯色、无渐变**；DAY 黑对黑；仅图案密度允许由离散 T 数量变化构成渐变。
+- 下一次用户明确要求渲染时才生成 #24；生成后自动记录评论并尝试上传原 PNG，必须核验；不得谎称已上传或伪造生成脚本。
+
 ### 这次直接执行
 - 用中文简洁说明你准备在 #19 的基础上**保留什么、删掉什么、强化什么**（不必重述一长串历史）。
 - **调用图像生成工具**生成一版新渲染：相同真实 Highland M3P 的 DAY / NIGHT FULL REVEAL 对照，完整侧视、白天全车照明可见、夜间所有反光元素都清晰亮起；尽量真实可信、不太满。

@@ -11,6 +11,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 - [Current status / 当前进度](agent/CURRENT_STATE.md) — #19 remains an aesthetic baseline; #20 has a new review, not final approval.
 - [**#20 review / 第 20 版评价**](iterations/0005-2026-10-12-v20-ghost-sculpture/) — **PNG GitHub upload pending**; original preserved in ChatGPT Library.
 - [**Performance Line Language / 超跑运动线条研究**](research/2026-10-12-performance-line-language.md) — AMG / Aston Martin / Bugatti / Pagani design techniques; no copying; #21 proposed brief.
+- [**#24 Prototype Color & Tesla DNA brief**](design-briefs/24-tesla-experimental-color-and-form.md) — official-prototype plausibility becomes a core evaluation criterion; limited red + dark titanium proposed.
 
 ## AI rendering archive (2026-10-11 → 2026-10-12)
 
@@ -54,6 +55,9 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 | [0003 — Track Kinetics](iterations/0003-2026-10-11-track-kinetics/) | **Plan / geometry gate paused** | Preliminary body tracing and sourced Tesla T; visual ideation temporarily takes priority | [V3 geometry and plan](iterations/0003-2026-10-11-track-kinetics/) |
 | [0004 — AI Design Journal](iterations/0004-2026-10-12-ai-render-journal/) | **19 original PNGs + chronological critique, no approval** | Black-on-black daytime vs night full reveal, ridge curves, fine Tesla T, functional red, solid-cut constraints | [V4 gallery and notes](iterations/0004-2026-10-12-ai-render-journal/) |
 | [0005 — Version #20 Ghost Sculpture](iterations/0005-2026-10-12-v20-ghost-sculpture/) | **Review archived; PNG upload pending** | 6.5/10 assessment; parallel lines and oversized T texture need simplification; original in Library | [#20 notes](iterations/0005-2026-10-12-v20-ghost-sculpture/NOTES_zh.md) |
+| [0006 — #21 Sculpted Tension](iterations/0006-2026-10-12-v21-sculpted-tension/) | **Review; PNG only in Library** | 7.6/10 — improved tension and negative space, but still too pretty | [#21 notes](iterations/0006-2026-10-12-v21-sculpted-tension/) |
+| [0007 — #22 Biomechanical Growth](iterations/0007-2026-10-12-v22-biomechanical-growth/) | **Review; PNG only in Library** | 7.2/10 — organic continuity, still too soft; reflective gradients rejected | [#22 notes](iterations/0007-2026-10-12-v22-biomechanical-growth/) |
+| [0008 — #23 Overcorrection](iterations/0008-2026-10-12-v23-overcorrection/) | **Review; PNG only in Library** | 6.9/10 — stronger but fragmented, mecha-like, negative space compromised | [#23 notes](iterations/0008-2026-10-12-v23-overcorrection/) |
 
 ## Technical boundaries
 
