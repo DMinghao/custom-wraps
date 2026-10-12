@@ -18,8 +18,8 @@
 - [#21](../iterations/0006-2026-10-12-v21-sculpted-tension/)：助手评价 7.6/10，运动张力提升，但仍“太漂亮”；用户后来也认可这一评价。
 - [#22](../iterations/0007-2026-10-12-v22-biomechanical-growth/)：用户尝试把尾翼/后唇“从车上长出来”的生物性引入车身；助手评价 7.2/10，用户认为仍“太漂亮”、力量不足，明确反对任何反光亮度/颜色渐变。
 - [#23](../iterations/0008-2026-10-12-v23-overcorrection/)：助手评价 6.9/10，强度明显但过碎、过硬，偏机甲与街头改装；主次与前门留白退步。用户尚未正式确认这一版评价。
-- **#24 仅有设计简报，尚未生成图片或获得用户对具体配色方案的确认**：[Tesla Experimental / Biomechanical Performance](../design-briefs/24-tesla-experimental-color-and-form.md)。用户明确将“让人觉得像 Tesla 官方设计的实验原型车”作为至关重要的衡量指标；并要求权衡最近数版缺少其他颜色的问题。助手提出黑/深钛灰/极少量红色，属于**建议，尚未获具体颜色方案批准**。
-- #20–#23 的原始 PNG 全部已保存在 ChatGPT Library 的 `/MODEL-2.9/livery/` 中；**截至此次检查，四张原始 PNG 均未证实成功上传 GitHub**。当前 GitHub 仅归档相应说明、哈希与用户意见，不要声称完整图片已同步。
+- **#24 已生成**：[Tesla Experimental / Biomechanical Performance](../iterations/0009-2026-10-12-v24-tesla-experimental/)。助手 7.3/10：比 #23 更克制、前门留白恢复；但主弧仍柔软偏 GT、后轮拱过密、T 区域仍像分区贴纸、红色工程作用不足。夜间大体全亮，但局部灰白混合未通过严格等亮检查。**用户尚未对 #24 发表评价，也未批准具体配色方案。** [原设计简报](../design-briefs/24-tesla-experimental-color-and-form.md) 保留。
+- #20–#24 的原始 PNG 全部已保存在 ChatGPT Library 的 `/MODEL-2.9/livery/` 中；**截至此次检查，这五张原始 PNG 均未证实成功上传 GitHub**。当前 GitHub 仅归档相应说明、哈希与用户意见，不要声称完整图片已同步。
 
 ## 已明确确认
 **DAY 黑对黑；NIGHT FULL REVEAL 所有反光部件同时亮起的最坏视觉压力测试**；同一版图案/同一侧面车身日夜对照；手绘形体曲线 + 有性能张力；留白；主色块→小 T 的宽广连续转场；轮拱/C 柱贴合；功能化而适当大胆的红色；形状尽量为实色可切的视觉语法，避免大量碎片和 mesh。

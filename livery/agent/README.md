@@ -6,7 +6,7 @@
 1. Copy and paste [PICKUP_PROMPT.md](PICKUP_PROMPT.md) into a fresh session.
 2. Read [CURRENT_STATE.md](CURRENT_STATE.md), [DESIGN_GUARDRAILS.md](DESIGN_GUARDRAILS.md), and [RENDER_QA.md](RENDER_QA.md).
 3. Inspect the [original 19-image render gallery](../iterations/0004-2026-10-12-ai-render-journal/README.md). Focus on [#15 Sparse Ridge](../iterations/0004-2026-10-12-ai-render-journal/renders/15_sparse_ridge_texture.png), [#17 sketch-style](../iterations/0004-2026-10-12-ai-render-journal/renders/17_design_sketch_contour.png), [#18 overfull anti-reference](../iterations/0004-2026-10-12-ai-render-journal/renders/18_sculpted_velocity.png), [#19 current aesthetic baseline](../iterations/0004-2026-10-12-ai-render-journal/renders/19_ghost_sculpture_full_reveal.png).
-4. Read the [#20 review](../iterations/0005-2026-10-12-v20-ghost-sculpture/NOTES_zh.md); the PNG is saved in ChatGPT Library but **not on GitHub yet**.
+4. Read the [#24 review](../iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md) and preceding #20–#23 notes. Original PNG files #20–#24 are backed up in ChatGPT Library but **not verified as uploaded to GitHub**.
 5. The owner **has now explicitly requested that every subsequent render and feedback round be archived to GitHub automatically**, with no need to request permission each time. Follow [SESSION_HANDOFF.md](SESSION_HANDOFF.md), validate actual image bytes and links; report any failed upload transparently.
 
 ## Authority & status

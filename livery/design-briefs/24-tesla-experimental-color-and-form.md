@@ -42,3 +42,7 @@ Rationale: use manufacturer-likeness as north star, without representing this pr
 
 ## Current archive caution
 Original PNGs #20–#23 saved in user ChatGPT Library at `/MODEL-2.9/livery/`. Markdown indices/reviews in repo should not be confused with **verified original PNG GitHub uploads**, which are still pending.
+
+## Render #24 result — 2026-10-12 (post-brief update)
+
+The owner explicitly asked to render #24 after this brief. #24 was generated, and the assistant recorded a subjective **7.3/10** assessment in [#24 review](../iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md). Main findings: reduced fragmented armor noise but returned toward soft GT linework, rear wheel arch too full, micro T still a block, sparse red did not materially influence the graphic. **Do not treat rendering as acceptance of the color proposal.** Original image is in ChatGPT Library, not verified on GitHub.
