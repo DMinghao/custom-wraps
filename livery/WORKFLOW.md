@@ -41,3 +41,7 @@ Use descriptive file names. Don't label simulated night effects as tested reflec
 - For every new generated image, automatically archive **the original unmodified image and the review/feedback** on GitHub; no extra confirmation is needed. Record assistant analysis separately from user-confirmed decisions.
 - This phase is conceptual; ImageGen has no guaranteed reproducible source or seed. Do not invent a `render-uv.py`, `config.json`, or deterministic seed just to satisfy the older code-first folder template. Preserve original binary, prompt intent, file SHA/bytes, and notes instead.
 - Keep each numbered render distinct and immutable. Update index and handoff. Verify actual GitHub image content and preview, not merely the Markdown notes. If original binary upload is blocked, save the unchanged source in Library, log the blocker as **pending**, and retry when transferable; do not claim full archive success.
+
+## GitHub PNG 自动化归档脚本
+
+[批量上传脚本](tools/sync_livery_pngs.py) 与[使用方法](tools/README.md)。上传后通过文件大小/Git Blob 和原图 SHA-256 校验；所有图像必须能在[图集](visual-archive/RENDER_GALLERY_20_ONWARD.md)中直接预览。若当前执行环境无 GitHub 网络或凭据，不能声称远端上传完成。2026-10-12 #20–#27 八张 PNG 经 GitHub 远端文件大小和 Blob SHA 核对成功。

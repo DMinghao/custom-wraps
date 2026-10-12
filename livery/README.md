@@ -1,5 +1,9 @@
 # MODEL 2.9 — Ghost Livery Workshop
 
+<!-- AUTO_PNG_ARCHIVE_START -->
+**完整图像已补传并核验：** [查看 #20–#27 原始 DAY/NIGHT 图集](visual-archive/RENDER_GALLERY_20_ONWARD.md)。八张 PNG 的远端大小及 Git Blob SHA 与原始文件匹配。上传提交：[c68ab65](https://github.com/DMinghao/custom-wraps/commit/c68ab652e91f9b4c030663f2caa146ef86b482c4)。旧版本说明里的“PNG pending”是补传前的历史记录，不代表现在的实际状态。
+<!-- AUTO_PNG_ARCHIVE_END -->
+
 **Primary project workspace for the 2024+ Tesla Model 3 Performance (M3P) stealth-texture wrap.**
 
 This folder is separate from the Tesla-sourced templates. Original `model3-2024-performance/template.png` remains unchanged and is an on-screen preview UV atlas, *not a full-scale vinyl cutter outline*.

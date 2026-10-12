@@ -1,5 +1,12 @@
 # MODEL 2.9 — Current State / 2026-10-12
 
+## 2026-10-12 图片补传验收完成（高优先级最新状态）
+- GitHub 已有 **#20–#27 共八张原始 PNG**，分别位于独立迭代目录 `renders/`。仓库中文图集：[RENDER_GALLERY_20_ONWARD.md](../visual-archive/RENDER_GALLERY_20_ONWARD.md)。
+- 核对 GitHub 文件 size / Git Blob SHA-1 **8/8 与原始清单一致**。上传提交：[c68ab65](https://github.com/DMinghao/custom-wraps/commit/c68ab652e91f9b4c030663f2caa146ef86b482c4)。
+- 本文早期所有“PNG 尚未上传 / pending”字样，是**此前状态的历史记录**，不再适用于 #20–#27。
+- 批量上传工具：[sync_livery_pngs.py](../tools/sync_livery_pngs.py)；下一次新渲染必须执行真实上传、远端校验、更新图集，不能只提交文字。
+
+
 **状态：** Image-first 视觉探索；#19 仍为待改进的审美基线；**#20 已生成并获助手评分 6.5/10，但并未获得用户认可；第 20 版评价已存 GitHub，原始 PNG GitHub 上传待完成**。原始 19 张 AI PNG 已归档在 [0004 图集](../iterations/0004-2026-10-12-ai-render-journal/README.md)；完整反馈见 [ITERATION_NOTES_zh](../iterations/0004-2026-10-12-ai-render-journal/ITERATION_NOTES_zh.md)。此前 V1/V2 工程预览与 V3 的 G0/几何计划都保留；代码优先/物理裁切阶段暂缓。
 
 ## 关键图和用户反馈
