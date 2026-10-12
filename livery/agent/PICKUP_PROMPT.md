@@ -40,11 +40,17 @@ Agent 交接包：https://github.com/DMinghao/custom-wraps/tree/master/livery/ag
 ### 技术范围与边界
 项目目前是**先审美图像，再适配真实几何，再做施工测试**。官方 Tesla Paint Shop `template.png` 是车机 UV 可视化图，不是按毫米测绘的裁切模具。还未确认黑反光膜实际亮度、对 Apterix PPF 粘胶兼容性、日间光泽差、贴合弧度、Tesla T 最小尺寸或法规。不要输出自称 cut-ready 的 SVG/DXF，不要假定 ImageGen 夜间发亮可在现实完全复现。
 
+### 最新补充（2026-10-12，优先于下面旧版操作细节）
+- 已渲染 #20；用户认可对 #20 的批评并补充**线条过软**。用户要求在下次渲染前先借鉴 AMG、Aston Martin、Bugatti、Pagani 赛道/概念车的**结构张力、节奏、曲率、停顿和负空间技巧**，不照抄具体拉花或徽标。研究： https://github.com/DMinghao/custom-wraps/blob/master/livery/research/2026-10-12-performance-line-language.md
+- 下一版可称 #21 — Sculpted Tension。避免丝带式匀速平缓曲线，采用局部曲率快速变化、强烈收尖/短断点；仍保留少量柔顺形体曲线，**不得回到硬 Z 折线、LED 条或 GT pinstripe**。#20 中文评价： https://github.com/DMinghao/custom-wraps/blob/master/livery/iterations/0005-2026-10-12-v20-ghost-sculpture/NOTES_zh.md
+- **用户已授权以后每一版渲染和每轮意见自动归档 GitHub，勿再要求上传确认**。保存原始 PNG、不压缩、验证远端 PNG SHA/大小与预览后才称成功。#20 PNG GitHub 仍待上传，原图备份在 ChatGPT Library `/MODEL-2.9/livery/20_day_night_full_reveal_original.png`。
+- 下面“等我要求再同步”是旧指令，已被上述自动归档授权取代；但**只有用户要求下一版图像时才生成**，不要将本次研究讨论理解为已请求生成 #21。
+
 ### 这次直接执行
 - 用中文简洁说明你准备在 #19 的基础上**保留什么、删掉什么、强化什么**（不必重述一长串历史）。
 - **调用图像生成工具**生成一版新渲染：相同真实 Highland M3P 的 DAY / NIGHT FULL REVEAL 对照，完整侧视、白天全车照明可见、夜间所有反光元素都清晰亮起；尽量真实可信、不太满。
 - 重点尝试更短但有张力的雕塑主线、更自然的后轮拱/C 柱关系、更广且过渡流畅的小 T 渐变、更统一的红色工程化语言。
-- 图片出来之后等待我反馈，不要擅自反复生成或自动把图片上传 GitHub；我要求同步时再归档。
+- 图片出来之后等待我反馈，不要擅自反复生成。**每轮生成及每轮反馈都自动提交 GitHub 归档（用户已在 2026-10-12 明确授权）**；上传需验证完整原始 PNG，不可用文本记录冒充图片同步成功。
 - 如果无法看到 #19 原图，请先让我附图再做基于原图的定向迭代；不要凭想象冒充直接参考。
 
 ## PROMPT END

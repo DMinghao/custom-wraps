@@ -10,6 +10,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 - [**Agent handoff folder**](agent/README.md) — current baseline, design guardrails, render QA and GitHub archive protocol.
 - [Current status / 当前进度](agent/CURRENT_STATE.md) — #19 remains an aesthetic baseline; #20 has a new review, not final approval.
 - [**#20 review / 第 20 版评价**](iterations/0005-2026-10-12-v20-ghost-sculpture/) — **PNG GitHub upload pending**; original preserved in ChatGPT Library.
+- [**Performance Line Language / 超跑运动线条研究**](research/2026-10-12-performance-line-language.md) — AMG / Aston Martin / Bugatti / Pagani design techniques; no copying; #21 proposed brief.
 
 ## AI rendering archive (2026-10-11 → 2026-10-12)
 

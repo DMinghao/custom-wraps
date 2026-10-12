@@ -39,6 +39,9 @@ Last updated: **2026-10-11**. This file separates **owner-confirmed direction** 
 | D-031 | **Confirmed** | Red may be bolder but **function-coded** (datum, trajectory, release/transformation point), not random slashes/triangles. | Owner repeated preference |
 | D-032 | **Confirmed** | Keep **NIGHT FULL REVEAL** — show all intended retroreflective graphics bright together as a *worst-case visual density stress test*; don't hide clutter through selective lighting. | Owner explicit clarification |
 | D-033 | **Open** | Night material bright-color/response and geometry are **not physically verified** by AI render; no view is a cut-ready or true CAD map. | Actual PPF/material tests and dimensional mapping |
+| D-034 | **Confirmed (owner critique)** | Render #20's curves are **too soft**; do not let the sketch-style direction become a gentle ribbon-like GT livery. | 2026-10-12 owner feedback to #20, not image/fabrication approval |
+| D-035 | **Confirmed (owner request)** | Study sporting livery/bodyline techniques from **AMG, Aston Martin, Bugatti and Pagani** performance/race/concept cars; **learn technique rather than copy distinctive graphics**. | 2026-10-12 owner research request; [research](research/2026-10-12-performance-line-language.md) |
+| D-036 | **Proposed (assistant interpretation)** | Next study should explore sharper curve acceleration, local tension/termination, a calmer lower door and a continuous fine Tesla T release; do not overcorrect into angular Z shapes. | Four-brand research; proposed for #21 but not owner-approved |
 
 ## Iterations
 
