@@ -13,6 +13,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 - [**Performance Line Language / 超跑运动线条研究**](research/2026-10-12-performance-line-language.md) — AMG / Aston Martin / Bugatti / Pagani design techniques; no copying; #21 proposed brief.
 - [**#24 Prototype Color & Tesla DNA brief**](design-briefs/24-tesla-experimental-color-and-form.md) — official-prototype plausibility becomes a core evaluation criterion; limited red + dark titanium proposed.
 - [**#24 rendered review**](iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md) — 7.3/10 assistant critique, **GitHub PNG pending; original backed up in Library**.
+- [**#25 rendered review**](iterations/0010-2026-10-12-v25-force-path/NOTES_zh.md) — 7.0/10 assistant critique; recommends breaking away from the repeated ribbon/arch/T/rear-blades formula. GitHub PNG pending.
 
 ## AI rendering archive (2026-10-11 → 2026-10-12)
 
@@ -60,6 +61,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 | [0007 — #22 Biomechanical Growth](iterations/0007-2026-10-12-v22-biomechanical-growth/) | **Review; PNG only in Library** | 7.2/10 — organic continuity, still too soft; reflective gradients rejected | [#22 notes](iterations/0007-2026-10-12-v22-biomechanical-growth/) |
 | [0008 — #23 Overcorrection](iterations/0008-2026-10-12-v23-overcorrection/) | **Review; PNG only in Library** | 6.9/10 — stronger but fragmented, mecha-like, negative space compromised | [#23 notes](iterations/0008-2026-10-12-v23-overcorrection/) |
 | [0009 — #24 Tesla Experimental](iterations/0009-2026-10-12-v24-tesla-experimental/) | **Render generated; review archived, original PNG only in Library** | 7.3/10 — stronger overall restraint, but still soft GT curves; rear quarter crowded; red underused | [#24 assessment](iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md) |
+| [0010 — #25 Force Path](iterations/0010-2026-10-12-v25-force-path/) | **Render generated; review archived, PNG in Library** | 7.0/10 — same visual formula repeated; wheel-arch white border and rear blades still too decorative | [#25 review](iterations/0010-2026-10-12-v25-force-path/NOTES_zh.md) |
 
 ## Technical boundaries
 
