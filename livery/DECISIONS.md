@@ -29,12 +29,25 @@ Last updated: **2026-10-11**. This file separates **owner-confirmed direction** 
 | D-022 | **Proposed** | Design `Track Kinetics` with 2–4 strong directional gesture groups + distributed Tesla T fade, rather than dozens of near-parallel pinstripes. | V3 conceptual direction; owner approval pending |
 | D-023 | **Open** | Acquire perpendicular, appropriately reusable M3P photo/mesh with accurate contour registration. | Geometry-first V3 milestone |
 
+| D-024 | **Confirmed** | Change to image-first creative exploration; pause geometry/UV code-first iteration until an acceptable render direction has been chosen. | Owner agreement in design conversation |
+| D-025 | **Confirmed** | All intended black retroreflective elements must be **black/near-black in DAY views**, not bright white; night appearances remain simulated. | Owner explicitly corrected material/color logic |
+| D-026 | **Confirmed** | Prioritize **solid-color cuttable shapes**; avoid simulated frosted/mesh-texture cutouts and excessive tiny cut features. | Owner repeatedly raised build complexity |
+| D-027 | **Confirmed** | True **body ridge/volume** directions including roof/C-pillar, shoulder, lower doors, front/rear arches should inform all highlight graphics. | Owner's primary visual requirement |
+| D-028 | **Confirmed** | T motif area can be larger while individual logo symbols remain small/fine and dense; require a **gradual structure-to-microtexture transition** rather than a hard border. | Owner's AMG-style transition feedback |
+| D-029 | **Confirmed** | Retain strong **negative space**, avoid overly full/highly fragmented "street tuner" visuals and GT-like uniform parallel pinstripes. | Owner's recurring critique |
+| D-030 | **Confirmed** | Use styling-sketch-inspired **curves with tension** to reinforce real vehicle form; avoid too-hard graphic bars. | Owner explicitly requested design sketch lines |
+| D-031 | **Confirmed** | Red may be bolder but **function-coded** (datum, trajectory, release/transformation point), not random slashes/triangles. | Owner repeated preference |
+| D-032 | **Confirmed** | Keep **NIGHT FULL REVEAL** — show all intended retroreflective graphics bright together as a *worst-case visual density stress test*; don't hide clutter through selective lighting. | Owner explicit clarification |
+| D-033 | **Open** | Night material bright-color/response and geometry are **not physically verified** by AI render; no view is a cut-ready or true CAD map. | Actual PPF/material tests and dimensional mapping |
+
 ## Iterations
 
 - [0001 — Ghost Reflective](iterations/0001-2026-10-11-ghost-reflective/): archived exploration; not production-ready.
 - [0002 — Ghost Aerodynamics](iterations/0002-2026-10-11-ghost-aerodynamics/): agreed conceptual direction; panel distribution/implementation designs still **proposed**.
 
 - [0003 — Track Kinetics](iterations/0003-2026-10-11-track-kinetics/): planning and geometry calibration; no approved V3 render yet.
+
+- [0004 — AI Design Journal](iterations/0004-2026-10-12-ai-render-journal/): 19 original generated PNGs with detailed owner-feedback notes; **aesthetic reference archive, no final approval**.
 
 ## Decision-record format
 
