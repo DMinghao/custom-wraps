@@ -15,6 +15,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 - [**#24 rendered review**](iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md) — 7.3/10 assistant critique, **GitHub PNG pending; original backed up in Library**.
 - [**#25 rendered review**](iterations/0010-2026-10-12-v25-force-path/NOTES_zh.md) — 7.0/10 assistant critique; recommends breaking away from the repeated ribbon/arch/T/rear-blades formula. GitHub PNG pending.
 - [**#26 Ridge-led Prototype + owner feedback**](iterations/0011-2026-10-12-v26-ridge-led-prototype/NOTES_zh.md) — owner ~80/100, front-fender refinement requested, new visual baseline. Original PNG only in Library; GitHub PNG pending.
+- [**#27 Front Ridge refinement & review**](iterations/0012-2026-10-12-v27-front-ridge-refinement/NOTES_zh.md) — assistant 8.3/10, review not yet owner-confirmed; GitHub PNG pending.
 
 ## AI rendering archive (2026-10-11 → 2026-10-12)
 
@@ -64,6 +65,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 | [0009 — #24 Tesla Experimental](iterations/0009-2026-10-12-v24-tesla-experimental/) | **Render generated; review archived, original PNG only in Library** | 7.3/10 — stronger overall restraint, but still soft GT curves; rear quarter crowded; red underused | [#24 assessment](iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md) |
 | [0010 — #25 Force Path](iterations/0010-2026-10-12-v25-force-path/) | **Render generated; review archived, PNG in Library** | 7.0/10 — same visual formula repeated; wheel-arch white border and rear blades still too decorative | [#25 review](iterations/0010-2026-10-12-v25-force-path/NOTES_zh.md) |
 | [0011 — #26 Ridge-led Prototype](iterations/0011-2026-10-12-v26-ridge-led-prototype/) | **Render/review archived; original PNG only in Library** | Owner rated ~80/100; assistant 8.1/10. Hard ridge-led graphics are new aesthetic baseline; front fender may need modest detail; image itself mislabels VERSION 25. | [#26 review](iterations/0011-2026-10-12-v26-ridge-led-prototype/NOTES_zh.md) |
+| [0012 — #27 Front Ridge Refinement](iterations/0012-2026-10-12-v27-front-ridge-refinement/) | **Render/review archived; PNG only in Library** | Assistant 8.3/10: front fender improved, but triangle thick, upper luminous line long, rear-quarter still crowded; no owner review yet | [#27 notes](iterations/0012-2026-10-12-v27-front-ridge-refinement/NOTES_zh.md) |
 
 ## Technical boundaries
 
