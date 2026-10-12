@@ -8,7 +8,8 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 
 - [**Agent pickup prompt / 新会话直接复制**](agent/PICKUP_PROMPT.md) — paste into a new ChatGPT session and continue DAY / NIGHT FULL REVEAL rendering.
 - [**Agent handoff folder**](agent/README.md) — current baseline, design guardrails, render QA and GitHub archive protocol.
-- [Current status / 当前进度](agent/CURRENT_STATE.md) — #19 is an aesthetic baseline, not a final wrap approval.
+- [Current status / 当前进度](agent/CURRENT_STATE.md) — #19 remains an aesthetic baseline; #20 has a new review, not final approval.
+- [**#20 review / 第 20 版评价**](iterations/0005-2026-10-12-v20-ghost-sculpture/) — **PNG GitHub upload pending**; original preserved in ChatGPT Library.
 
 ## AI rendering archive (2026-10-11 → 2026-10-12)
 
@@ -51,6 +52,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 
 | [0003 — Track Kinetics](iterations/0003-2026-10-11-track-kinetics/) | **Plan / geometry gate paused** | Preliminary body tracing and sourced Tesla T; visual ideation temporarily takes priority | [V3 geometry and plan](iterations/0003-2026-10-11-track-kinetics/) |
 | [0004 — AI Design Journal](iterations/0004-2026-10-12-ai-render-journal/) | **19 original PNGs + chronological critique, no approval** | Black-on-black daytime vs night full reveal, ridge curves, fine Tesla T, functional red, solid-cut constraints | [V4 gallery and notes](iterations/0004-2026-10-12-ai-render-journal/) |
+| [0005 — Version #20 Ghost Sculpture](iterations/0005-2026-10-12-v20-ghost-sculpture/) | **Review archived; PNG upload pending** | 6.5/10 assessment; parallel lines and oversized T texture need simplification; original in Library | [#20 notes](iterations/0005-2026-10-12-v20-ghost-sculpture/NOTES_zh.md) |
 
 ## Technical boundaries
 

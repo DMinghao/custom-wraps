@@ -1,6 +1,6 @@
 # MODEL 2.9 — Current State / 2026-10-12
 
-**状态：** Image-first 视觉探索；#19 是目前审美基线而非最终施工批准。原始 19 张 AI PNG 已归档在 [0004 图集](../iterations/0004-2026-10-12-ai-render-journal/README.md)；完整反馈见 [ITERATION_NOTES_zh](../iterations/0004-2026-10-12-ai-render-journal/ITERATION_NOTES_zh.md)。此前 V1/V2 工程预览与 V3 的 G0/几何计划都保留；代码优先/物理裁切阶段暂缓。
+**状态：** Image-first 视觉探索；#19 仍为待改进的审美基线；**#20 已生成并获助手评分 6.5/10，但并未获得用户认可；第 20 版评价已存 GitHub，原始 PNG GitHub 上传待完成**。原始 19 张 AI PNG 已归档在 [0004 图集](../iterations/0004-2026-10-12-ai-render-journal/README.md)；完整反馈见 [ITERATION_NOTES_zh](../iterations/0004-2026-10-12-ai-render-journal/ITERATION_NOTES_zh.md)。此前 V1/V2 工程预览与 V3 的 G0/几何计划都保留；代码优先/物理裁切阶段暂缓。
 
 ## 关键图和用户反馈
 | 编号 | 价值 / 缺点 |
@@ -11,7 +11,8 @@
 | [#16 Ridge Transition](../iterations/0004-2026-10-12-ai-render-journal/renders/16_ridge_transition_v2.png) | 必须利用后轮拱与车顶/C 柱，但避免 Z 形长线框 |
 | [#17 Sketch Contour](../iterations/0004-2026-10-12-ai-render-journal/renders/17_design_sketch_contour.png) | 汽车设计手稿轮廓优于刚硬折线，仍要保留性能张力 |
 | [#18 Too Full](../iterations/0004-2026-10-12-ai-render-journal/renders/18_sculpted_velocity.png) | **用户否定：太满、鬼火感** |
-| [#19 Ghost Sculpture](../iterations/0004-2026-10-12-ai-render-journal/renders/19_ghost_sculpture_full_reveal.png) | **最新审美参考基线、未定稿**，留白改善；肩线仍可能过长似 LED、T 过渡生硬、红色欠统一 |
+| [#19 Ghost Sculpture](../iterations/0004-2026-10-12-ai-render-journal/renders/19_ghost_sculpture_full_reveal.png) | **审美参考基线、未定稿**，留白改善；肩线仍可能过长似 LED、T 过渡生硬、红色欠统一 |
+| [#20 Ghost Sculpture](../iterations/0005-2026-10-12-v20-ghost-sculpture/NOTES_zh.md) | **2026-10-12 新渲染，助手评价 6.5/10；尚无用户审美批准。** 前门留白与上扬动势可取；GT 式下沿平行线、过密规则 T、过渡生硬、红标不足、车型细节有误。**原 PNG 存 Library，GitHub 图片待补传。** |
 
 ## 已明确确认
 **DAY 黑对黑；NIGHT FULL REVEAL 所有反光部件同时亮起的最坏视觉压力测试**；同一版图案/同一侧面车身日夜对照；手绘形体曲线 + 有性能张力；留白；主色块→小 T 的宽广连续转场；轮拱/C 柱贴合；功能化而适当大胆的红色；形状尽量为实色可切的视觉语法，避免大量碎片和 mesh。
@@ -19,7 +20,7 @@
 **没有任何一张图获批为实际可生产贴膜。** 用户批准过设计方向，不等于批准车辆几何、选材或施工。
 
 ## 下一步设计建议（非批准）
-从 #19 继续：适度缩短与断开上部反光主线，弱化/缩短次线，保留前门空白；让后门的实色线逐渐融入后轮拱形态的微 T 密度场；使用少数红色 reference/transition 标识，删除重复改装车红斜杠。
+以 #19 的克制方向和 #20 的实际问题为输入：保持前门空白与运动主势；删除 #20 下沿多条平行长线；将后门实色结构到后轮拱微 T 做真正的连续密度转化；只保留 1–2 个功能性红色 datum。**这些是助手建议，非用户确认。**
 
 ## 未验证事项
 - 黑反光材料的真实日间黑度、光泽与 NIGHT 的角度相关强度。

@@ -35,3 +35,9 @@ Use descriptive file names. Don't label simulated night effects as tested reflec
 - [ ] No cameras, sensors, lights, plate or mandated reflectors obstructed
 - [ ] New film over Apterix PPF adhesive / removal tested
 - [ ] Proposed design vs owner-confirmed final choice clearly distinguished
+
+## Image-first generation archive (owner's ongoing authorization, 2026-10-12)
+
+- For every new generated image, automatically archive **the original unmodified image and the review/feedback** on GitHub; no extra confirmation is needed. Record assistant analysis separately from user-confirmed decisions.
+- This phase is conceptual; ImageGen has no guaranteed reproducible source or seed. Do not invent a `render-uv.py`, `config.json`, or deterministic seed just to satisfy the older code-first folder template. Preserve original binary, prompt intent, file SHA/bytes, and notes instead.
+- Keep each numbered render distinct and immutable. Update index and handoff. Verify actual GitHub image content and preview, not merely the Markdown notes. If original binary upload is blocked, save the unchanged source in Library, log the blocker as **pending**, and retry when transferable; do not claim full archive success.
