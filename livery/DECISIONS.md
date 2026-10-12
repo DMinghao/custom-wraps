@@ -47,6 +47,10 @@ Last updated: **2026-10-11**. This file separates **owner-confirmed direction** 
 | D-039 | **Confirmed (owner priority)** | Top criterion for the future appearance is a believable **Tesla-designed experimental performance prototype**, rather than merely an aggressive aftermarket wrap. | User #24 discussion, 2026-10-12 |
 | D-040 | **Confirmed (owner exploration request)** | Evaluate selective introduction of additional colors; avoid assuming recent monochrome designs are optimal. | User #24 discussion, 2026-10-12 |
 | D-041 | **Proposed (assistant)** | For #24, try restrained Matte Black + Dark Titanium + small Performance Red function-coded marks; no fourth hue, no extra luxury pinstripe; night retroreflective remains uniformly bright. | #24 proposal; no user approval of exact colors or placements |
+| D-042 | **Confirmed (owner new direction)** | Drop **biomorphic/grown-body** as primary livery language; prefer **hard, ridge-following lines** matching original vehicle body creases and engineering surfaces. | Owner pivot before #26, 2026-10-12; supersedes biomorphic graphic proposal only (not owner-selected spoiler/diffuser edge highlighting) |
+| D-043 | **Confirmed (owner aesthetic feedback)** | Owner judges #26 approximately **80/100**, notably stronger than earlier directions; front fender may benefit from restrained additional design. | 2026-10-12 owner's words; not an approval of actual installation or precise #27 design |
+| D-044 | **Open / observed render mistake** | Actual #26 render visually says **VERSION 25**; archive by true iteration #26, retain original immutable; correct numbering in next render. | #26 image inspection, 2026-10-12 |
+| D-045 | **Proposed (assistant)** | Keep #26 as aesthetic baseline and add one modest sharp ridge-matched front-fender gesture; retain visual hierarchy heavily rear-biased and reduce extraneous rear wedge/arch highlights. | #26 critique; no #27 image generated or owner sign-off |
 
 ## Iterations
 
