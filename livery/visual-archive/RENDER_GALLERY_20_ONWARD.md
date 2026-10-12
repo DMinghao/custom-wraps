@@ -1,4 +1,4 @@
-# MODEL 2.9 — 原始渲染图集 #20–#27
+# MODEL 2.9 — 原始渲染图集 #20–#28
 
 **GitHub 远端核验完成（2026-10-12）**：八张原始 PNG 均已上传至各自版本的 `renders/` 文件夹，文件大小与 Git Blob SHA-1 匹配原始清单。提交来源：[c68ab65](https://github.com/DMinghao/custom-wraps/commit/c68ab652e91f9b4c030663f2caa146ef86b482c4)。本图集通过 Markdown 直接嵌入远端原始 PNG，而非另外压缩。**仍属概念效果图，不是可施工裁膜文件。**
 
@@ -49,3 +49,12 @@
 ![Version 27 DAY/NIGHT full-resolution](../iterations/0012-2026-10-12-v27-front-ridge-refinement/renders/27_day_night_full_reveal_original.png)
 
 [打开原图](../iterations/0012-2026-10-12-v27-front-ridge-refinement/renders/27_day_night_full_reveal_original.png) · 1,874,723 bytes · Git blob `47ebaa470e062a33c197e03e685e36c999d55692`
+
+
+## Version 28
+
+![Version 28 DAY/NIGHT full-resolution](../iterations/0013-2026-10-12-v28-precision-ridge-refinement/renders/28_day_night_full_reveal_original.png)
+
+[打开原图](../iterations/0013-2026-10-12-v28-precision-ridge-refinement/renders/28_day_night_full_reveal_original.png) · 1,867,423 bytes · Git blob `87de690cd9c7f48fd6adeb0e98a795142d8367fe`
+
+评价：[中文笔记](../iterations/0013-2026-10-12-v28-precision-ridge-refinement/NOTES_zh.md) · 助手 8.5/10、用户未评分。

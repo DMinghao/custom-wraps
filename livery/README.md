@@ -1,7 +1,7 @@
 # MODEL 2.9 — Ghost Livery Workshop
 
 <!-- AUTO_PNG_ARCHIVE_START -->
-**完整图像已补传并核验：** [查看 #20–#27 原始 DAY/NIGHT 图集](visual-archive/RENDER_GALLERY_20_ONWARD.md)。八张 PNG 的远端大小及 Git Blob SHA 与原始文件匹配。上传提交：[c68ab65](https://github.com/DMinghao/custom-wraps/commit/c68ab652e91f9b4c030663f2caa146ef86b482c4)。旧版本说明里的“PNG pending”是补传前的历史记录，不代表现在的实际状态。
+**原始图像已上传并校验：** [查看 #20–#28 原始 DAY/NIGHT 图集](visual-archive/RENDER_GALLERY_20_ONWARD.md)。#20–#27 八张 PNG 的远端大小及 Git Blob SHA 与原始文件匹配；#28 图片已以相同严格方式原样提交。上传提交：[c68ab65](https://github.com/DMinghao/custom-wraps/commit/c68ab652e91f9b4c030663f2caa146ef86b482c4)。旧版本说明里的“PNG pending”是补传前的历史记录，不代表现在的实际状态。
 <!-- AUTO_PNG_ARCHIVE_END -->
 
 **Primary project workspace for the 2024+ Tesla Model 3 Performance (M3P) stealth-texture wrap.**
@@ -19,6 +19,7 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 - [**#24 rendered review**](iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md) — 7.3/10 assistant critique, **GitHub PNG pending; original backed up in Library**.
 - [**#25 rendered review**](iterations/0010-2026-10-12-v25-force-path/NOTES_zh.md) — 7.0/10 assistant critique; recommends breaking away from the repeated ribbon/arch/T/rear-blades formula. GitHub PNG pending.
 - [**#26 Ridge-led Prototype + owner feedback**](iterations/0011-2026-10-12-v26-ridge-led-prototype/NOTES_zh.md) — owner ~80/100, front-fender refinement requested, new visual baseline. Original PNG only in Library; GitHub PNG pending.
+- [**#28 Precision Ridge — image and review**](iterations/0013-2026-10-12-v28-precision-ridge-refinement/) — assistant 8.5/10; original full-resolution PNG present and SHA-verified.
 - [**#27 Front Ridge refinement & review**](iterations/0012-2026-10-12-v27-front-ridge-refinement/NOTES_zh.md) — assistant 8.3/10, review not yet owner-confirmed; GitHub PNG pending.
 
 ## AI rendering archive (2026-10-11 → 2026-10-12)
@@ -69,7 +70,8 @@ This folder is separate from the Tesla-sourced templates. Original `model3-2024-
 | [0009 — #24 Tesla Experimental](iterations/0009-2026-10-12-v24-tesla-experimental/) | **Render generated; review archived, original PNG only in Library** | 7.3/10 — stronger overall restraint, but still soft GT curves; rear quarter crowded; red underused | [#24 assessment](iterations/0009-2026-10-12-v24-tesla-experimental/NOTES_zh.md) |
 | [0010 — #25 Force Path](iterations/0010-2026-10-12-v25-force-path/) | **Render generated; review archived, PNG in Library** | 7.0/10 — same visual formula repeated; wheel-arch white border and rear blades still too decorative | [#25 review](iterations/0010-2026-10-12-v25-force-path/NOTES_zh.md) |
 | [0011 — #26 Ridge-led Prototype](iterations/0011-2026-10-12-v26-ridge-led-prototype/) | **Render/review archived; original PNG only in Library** | Owner rated ~80/100; assistant 8.1/10. Hard ridge-led graphics are new aesthetic baseline; front fender may need modest detail; image itself mislabels VERSION 25. | [#26 review](iterations/0011-2026-10-12-v26-ridge-led-prototype/NOTES_zh.md) |
-| [0012 — #27 Front Ridge Refinement](iterations/0012-2026-10-12-v27-front-ridge-refinement/) | **Render/review archived; PNG only in Library** | Assistant 8.3/10: front fender improved, but triangle thick, upper luminous line long, rear-quarter still crowded; no owner review yet | [#27 notes](iterations/0012-2026-10-12-v27-front-ridge-refinement/NOTES_zh.md) |
+| [0012 — #27 Front Ridge Refinement](iterations/0012-2026-10-12-v27-front-ridge-refinement/) | **Render/review archived; Original PNG in GitHub + Library** | Assistant 8.3/10: front fender improved, but triangle thick, upper luminous line long, rear-quarter still crowded; no owner review yet | [#27 notes](iterations/0012-2026-10-12-v27-front-ridge-refinement/NOTES_zh.md) |
+| [0013 — #28 Precision Ridge Refinement](iterations/0013-2026-10-12-v28-precision-ridge-refinement/) | **Original PNG + review archived and verified** | Assistant 8.5/10 — fender structure refined; upper line still long, rear wheel zone slightly crowded. User hasn't rated #28. | [#28 image / notes](iterations/0013-2026-10-12-v28-precision-ridge-refinement/) |
 
 ## Technical boundaries
 

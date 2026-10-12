@@ -1,5 +1,13 @@
 # MODEL 2.9 — Current State / 2026-10-12
 
+## 最新 #28 — Precision Ridge Refinement（2026-10-12）
+- [#28 原图+评价](../iterations/0013-2026-10-12-v28-precision-ridge-refinement/) 已一并提交 GitHub：**1672×941，1,867,423 bytes，Git blob `87de690cd9c7f48fd6adeb0e98a795142d8367fe`**，与原始 PNG SHA 一致。ChatGPT Library 同时留存原图。
+- 助手主观评分 **8.5/10**（#27 为 8.3）；**用户尚未给 #28 本人评分**。前翼子板短楔更收敛、整体结构相对完整，前门空白得以保留。但上部横向亮线仍过长、后轮拱/T/尾部略满、局部装饰尾楔仍需删减。
+- **#29 助手建议、非用户批准：**以 #28 硬朗脊线为基线；实体缩短/结构性断开上部长反光线（不能夜间变暗）；后轮拱与尾部削掉一处抢眼亮片，真实零件边界为优先。不要添加 GT 丝带、生物性轮拱或机甲碎片。
+- **原图归档已验证：**#20–#28 的 PNG 都在 GitHub 迭代目录的 `renders/`，旧版正文中的 pending 提示已过期。查看[综合图集](../visual-archive/RENDER_GALLERY_20_ONWARD.md)。
+
+
+
 ## 2026-10-12 图片补传验收完成（高优先级最新状态）
 - GitHub 已有 **#20–#27 共八张原始 PNG**，分别位于独立迭代目录 `renders/`。仓库中文图集：[RENDER_GALLERY_20_ONWARD.md](../visual-archive/RENDER_GALLERY_20_ONWARD.md)。
 - 核对 GitHub 文件 size / Git Blob SHA-1 **8/8 与原始清单一致**。上传提交：[c68ab65](https://github.com/DMinghao/custom-wraps/commit/c68ab652e91f9b4c030663f2caa146ef86b482c4)。
