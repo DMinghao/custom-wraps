@@ -1,0 +1,318 @@
+{
+  "project": "MODEL 2.9 / Tesla Model 3 Performance",
+  "scope": "all unique current concept renders and historical study output that can be verified in local conversation artifacts",
+  "as_of": "2026-10-12",
+  "count_high_res_ai_png": 13,
+  "count_early_png": 10,
+  "count_early_source": 2,
+  "includes_original_early_zip": true,
+  "duplicates_not_uploaded": [
+    "imagegen.png (same bytes as 01-day_to_night_tesla_stealth_livery.png)",
+    "ghostwriter_images/generated/a_sleek_automotive_concept_render_poster_design_1.png (same as 11)",
+    "ghostwriter_images/generated/a_high_end_cinematic_automotive_concept_presentat_1.png (same as 10)",
+    "ghostwriter_images/generated/a_clean_dark_cinematic_automotive_concept_board_1.png (same as 12)",
+    "M3P_AeroFlow_PaintShop.png (same as M3P_flow_day.png)"
+  ],
+  "files": [
+    {
+      "section": "ai-concepts",
+      "seq": "00",
+      "file": "livery/visual-archive/renders/00-wide_cinematic_design_board_concept_presentation.png",
+      "original_filename": "wide_cinematic_design_board_concept_presentation.png",
+      "caption_zh": "A / B / C 三方向起始比较，白天、夜间与细节组合",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2213700,
+      "sha256": "dac73a770dbf1943edbd919ca33908e05908deced6a63b72438ed5c3164b3655"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "01",
+      "file": "livery/visual-archive/renders/01-day_to_night_tesla_stealth_livery.png",
+      "original_filename": "day_to_night_tesla_stealth_livery.png",
+      "caption_zh": "早期剪切 A：低调白天、较宽反光斜切夜间",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1899974,
+      "sha256": "b66fda8835aeffb68e863dc4f184a5b507e8f4c7b99ad30173743134cb06cdb1"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "02",
+      "file": "livery/visual-archive/renders/02-day_to_night_electric_sedan_livery.png",
+      "original_filename": "day_to_night_electric_sedan_livery.png",
+      "caption_zh": "早期破碎 B：碎片纹理过密",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1969105,
+      "sha256": "58216c219b75071e604f866f95df35a7cba0821c259279cee2956a43d6b97d86"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "03",
+      "file": "livery/visual-archive/renders/03-fusion_2.9_day_to_night.png",
+      "original_filename": "fusion_2.9_day_to_night.png",
+      "caption_zh": "早期 Tesla T 主导 C：细密品牌纹理",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1962096,
+      "sha256": "0827bd29e0ac93712013e4b550147933a3bc71a42565abfb01d7e503df10f7ab"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "04",
+      "file": "livery/visual-archive/renders/04-tesla_model_3_fusion_livery_concept.png",
+      "original_filename": "tesla_model_3_fusion_livery_concept.png",
+      "caption_zh": "A+C 试验：侧面剪切与后部 T 纹理融合",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2194064,
+      "sha256": "cd74332d8b00165134dfd25c805443cd99fa591e725dccb21ce243b84924a280"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "05",
+      "file": "livery/visual-archive/renders/05-day_to_night_reflective_tesla_livery.png",
+      "original_filename": "day_to_night_reflective_tesla_livery.png",
+      "caption_zh": "强调施工性的剪切 + T，仍有碎片问题",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2149698,
+      "sha256": "2ee3cae299c483fa1f6b40c5ba2a2331c55dc13e4e8d5acef189802d0e001f55"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "06",
+      "file": "livery/visual-archive/renders/06-day_to_night_tesla_ridge_reveal.png",
+      "original_filename": "day_to_night_tesla_ridge_reveal.png",
+      "caption_zh": "脊线引导反光概念，夜间沿车身勾勒",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2141453,
+      "sha256": "623c6af117b1fbbca7497944c97dd05d65aaf7ee39da6cbcc041e6b9ddb18ba5"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "07",
+      "file": "livery/visual-archive/renders/07-day_night_tesla_performance_livery.png",
+      "original_filename": "day_night_tesla_performance_livery.png",
+      "caption_zh": "改为实色反光层，探索工程用途红标",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 2494250,
+      "sha256": "b48391b7238288c0fdee2a9d2bfe92ad434b72df1cb719abf9c92abe81982ad2"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "08",
+      "file": "livery/visual-archive/renders/08-day_night_tesla_model_3_livery_board.png",
+      "original_filename": "day_night_tesla_model_3_livery_board.png",
+      "caption_zh": "扩大 T 区域与色块，但视觉过满、过于碎片化",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2135626,
+      "sha256": "c8bc74890b6389c3dba0bc087637b7baeaa39ef777905d06882399ab8bd85cd1"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "09",
+      "file": "livery/visual-archive/renders/09-ridge_transition_tesla_livery_concept_sheet.png",
+      "original_filename": "ridge_transition_tesla_livery_concept_sheet.png",
+      "caption_zh": "Sparse Ridge Texture：留白、T 细化、过渡仍不自然",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2130720,
+      "sha256": "f1d4225e62a801ecdfd9775059a5a6382eeca0778fb02f53f6bd0fcb8a801702"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "10",
+      "file": "livery/visual-archive/renders/10-tesla_model_3_ridge_transition_concept.png",
+      "original_filename": "tesla_model_3_ridge_transition_concept.png",
+      "caption_zh": "Ridge Transition：主框架 Z 感过强，红色太刻板",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 2217046,
+      "sha256": "fbcead8b2022442e95994515d0ba114d7434e48bddaf39d9810558d60088de56"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "11",
+      "file": "livery/visual-archive/renders/11-tesla_model_3_sculpted_velocity_board.png",
+      "original_filename": "tesla_model_3_sculpted_velocity_board.png",
+      "caption_zh": "汽车手稿式曲线 / Sculpted Velocity，曲线优雅却太满",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2139716,
+      "sha256": "6209132542efcbade8936b66d3407351edcb556aaf3beef69c2b5e760ef65731"
+    },
+    {
+      "section": "ai-concepts",
+      "seq": "12",
+      "file": "livery/visual-archive/renders/12-sculpted_velocity_tesla_model_3_concept.png",
+      "original_filename": "sculpted_velocity_tesla_model_3_concept.png",
+      "caption_zh": "Ghost Sculpture 精简 + Night Full Reveal 压力测试",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 2109340,
+      "sha256": "ff8b8a4fa4d896ec1322344676d56af7aa253514159df274688b3df1ab553514"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_ThreeConcepts_Board.png",
+      "original_filename": "M3P_ThreeConcepts_Board.png",
+      "dimensions": [
+        2300,
+        3650
+      ],
+      "bytes": 1034388,
+      "sha256": "5eb60dd749826a5bf6fad99d4ca8e92dacbeb56751062ee4cdbb1f95cd3f4b4b"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_2D_Side_Study.png",
+      "original_filename": "M3P_2D_Side_Study.png",
+      "dimensions": [
+        2300,
+        2420
+      ],
+      "bytes": 587114,
+      "sha256": "4a14911b0564bfacbb1a7b165047bffa3b542a987f779560bdb64b0a6adff31e"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_flow_day.png",
+      "original_filename": "M3P_flow_day.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 23528,
+      "sha256": "c25ad59ece57f5d6c25472acaab6e161640ed49af3bec96ba0073b6d1e2d49a8"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_flow_night.png",
+      "original_filename": "M3P_flow_night.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 25231,
+      "sha256": "fdc6dc99ea368b1eba27ddc20383c58b4fa8d631255784bab1eb99a463acfb7a"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_parametric_day.png",
+      "original_filename": "M3P_parametric_day.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 26149,
+      "sha256": "b7df831db6c33b27009a3fdfa0a56d13ff07b8165811b76aac8dc84e871f76b6"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_parametric_night.png",
+      "original_filename": "M3P_parametric_night.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 27911,
+      "sha256": "01946f842d9f4b8b6c4a5dbe04db210ebf7c3b28190fa13a0cf414752e2c0f38"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_blueprint_day.png",
+      "original_filename": "M3P_blueprint_day.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 25233,
+      "sha256": "8fb12db77f0426757741f366eb1cb014d08b6d608cda92238b46c3e89cc73f4b"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/M3P_blueprint_night.png",
+      "original_filename": "M3P_blueprint_night.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 27677,
+      "sha256": "a265bcafaed27edef974db812f8fa9121d5170f53befb84f922e76fc75001525"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/UV_panel_reference.png",
+      "original_filename": "UV_panel_reference.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 8568,
+      "sha256": "ff4822c36d06f8e8fc9ebafbba854184723842c4fa9eed47e8131c0fe931c2f7"
+    },
+    {
+      "section": "early-explorations",
+      "file": "livery/visual-archive/early-studies/official_template_mask_4px.png",
+      "original_filename": "official_template_mask_4px.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 6160,
+      "sha256": "efd69eea83285347a2e582e125e1d00490455af8b3b4a570aeaac65669b9b0b8"
+    },
+    {
+      "section": "early-source",
+      "file": "livery/visual-archive/early-studies/README.txt",
+      "original_filename": "README.txt",
+      "bytes": 1661,
+      "sha256": "0bfc9695f2d528797fe97cbf772f30a88521ac08cc1e1c3337f36a1ec65f0fbb"
+    },
+    {
+      "section": "early-source",
+      "file": "livery/visual-archive/early-studies/design.py",
+      "original_filename": "design.py",
+      "bytes": 19885,
+      "sha256": "8fe8a4deff6370acebb3bb6ab517a4ea8fee73295e4b8bcf8193e350004f987d"
+    },
+    {
+      "section": "early-bundle",
+      "file": "livery/visual-archive/early-studies/M3P_GhostLivery_ConceptPack.zip",
+      "original_filename": "M3P_GhostLivery_ConceptPack.zip",
+      "bytes": 1762098,
+      "sha256": "d844f3e74586671521e3fbe47c7e69d45da1441a0dc6d8b94644dad252203c04"
+    }
+  ]
+}
