@@ -10,6 +10,23 @@
 - [原图尺寸与 Git blob SHA 清单](ORIGINAL_FILE_MANIFEST.md)
 - [项目总索引](../../README.md)
 
+## 全部 19 张直接可见的渲染图（按迭代顺序）
+
+**此处直接嵌入原始 PNG 作预览，无重新压缩或改变原始文件。** 点击任意图片可查看 GitHub 原文件。若手机端一次只加载部分图片，可继续向下滚动，或使用下方的单图链接。
+
+| | |
+|:---:|:---:|
+| **01 · 最初的视觉探索 A**<br><br>[![最初的视觉探索 A](renders/01_early_exploration_A.png)](renders/01_early_exploration_A.png) | **02 · 最初的视觉探索 B**<br><br>[![最初的视觉探索 B](renders/02_early_exploration_B.png)](renders/02_early_exploration_B.png) |
+| **03 · 最初的视觉探索 C**<br><br>[![最初的视觉探索 C](renders/03_early_exploration_C.png)](renders/03_early_exploration_C.png) | **04 · 早期独立生成方案 A**<br><br>[![早期独立生成方案 A](renders/04_early_concept_A.png)](renders/04_early_concept_A.png) |
+| **05 · 早期独立生成方案 B**<br><br>[![早期独立生成方案 B](renders/05_early_concept_B.png)](renders/05_early_concept_B.png) | **06 · 早期独立生成方案 C**<br><br>[![早期独立生成方案 C](renders/06_early_concept_C.png)](renders/06_early_concept_C.png) |
+| **07 · A/B/C 三种视觉方向对比**<br><br>[![A/B/C 三种视觉方向对比](renders/07_three_way_direction_board.png)](renders/07_three_way_direction_board.png) | **08 · 白天隐身、夜间显影方向 A**<br><br>[![白天隐身、夜间显影方向 A](renders/08_stealth_day_night.png)](renders/08_stealth_day_night.png) |
+| **09 · 白天／夜间双状态方向 B**<br><br>[![白天／夜间双状态方向 B](renders/09_electric_day_night.png)](renders/09_electric_day_night.png) | **10 · Fusion 2.9 双状态探索**<br><br>[![Fusion 2.9 双状态探索](renders/10_fusion_2_9_day_night.png)](renders/10_fusion_2_9_day_night.png) |
+| **11 · A+C 初次融合；被指出更接近 B+C，过渡偏碎**<br><br>[![A+C 初次融合；被指出更接近 B+C，过渡偏碎](renders/11_A_plus_C_fusion.png)](renders/11_A_plus_C_fusion.png) | **12 · Constructible A+C：减少 mesh 与内部磨砂质感**<br><br>[![Constructible A+C：减少 mesh 与内部磨砂质感](renders/12_constructible_A_plus_C.png)](renders/12_constructible_A_plus_C.png) |
+| **13 · Ridge-guided Reveal：强调按车身脊线设计**<br><br>[![Ridge-guided Reveal：强调按车身脊线设计](renders/13_ridge_guided_reveal.png)](renders/13_ridge_guided_reveal.png) | **14 · 实色可切膜，红色工程参照点尝试**<br><br>[![实色可切膜，红色工程参照点尝试](renders/14_solid_cut_functional_red.png)](renders/14_solid_cut_functional_red.png) |
+| **15 · Sparse Ridge Texture：增加负空间、减碎片**<br><br>[![Sparse Ridge Texture：增加负空间、减碎片](renders/15_sparse_ridge_texture.png)](renders/15_sparse_ridge_texture.png) | **16 · Ridge Transition v2：轮拱／车顶／渐变改进尝试**<br><br>[![Ridge Transition v2：轮拱／车顶／渐变改进尝试](renders/16_ridge_transition_v2.png)](renders/16_ridge_transition_v2.png) |
+| **17 · 汽车设计手稿曲线方向**<br><br>[![汽车设计手稿曲线方向](renders/17_design_sketch_contour.png)](renders/17_design_sketch_contour.png) | **18 · Sculpted Velocity：被指出过满、有鬼火感**<br><br>[![Sculpted Velocity：被指出过满、有鬼火感](renders/18_sculpted_velocity.png)](renders/18_sculpted_velocity.png) |
+| **19 · Ghost Sculpture + NIGHT FULL REVEAL：近期审美基线**<br><br>[![Ghost Sculpture + NIGHT FULL REVEAL：近期审美基线](renders/19_ghost_sculpture_full_reveal.png)](renders/19_ghost_sculpture_full_reveal.png) |  |
+
 ## 全部原始渲染按时间顺序
 
 01. **最初的视觉探索 A** — [查看原始 PNG](renders/01_early_exploration_A.png)（1.89 MiB）
