@@ -4,6 +4,12 @@
 
 This folder is separate from the Tesla-sourced templates. Original `model3-2024-performance/template.png` remains unchanged and is an on-screen preview UV atlas, *not a full-scale vinyl cutter outline*.
 
+## Resume in a new session
+
+- [**Agent pickup prompt / 新会话直接复制**](agent/PICKUP_PROMPT.md) — paste into a new ChatGPT session and continue DAY / NIGHT FULL REVEAL rendering.
+- [**Agent handoff folder**](agent/README.md) — current baseline, design guardrails, render QA and GitHub archive protocol.
+- [Current status / 当前进度](agent/CURRENT_STATE.md) — #19 is an aesthetic baseline, not a final wrap approval.
+
 ## AI rendering archive (2026-10-11 → 2026-10-12)
 
 - **[Original full-resolution render gallery — 19 PNGs](iterations/0004-2026-10-12-ai-render-journal/)**. Exact original bytes, no resizing/recompression.
